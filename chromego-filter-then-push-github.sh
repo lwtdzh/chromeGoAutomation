@@ -19,6 +19,7 @@ done
 WORK_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 NODES_DIR="$WORK_DIR/nodes"
 OUTPUT_FILE="$WORK_DIR/list"
+SUBSCRIPTION_LIST_URL="https://github.com/lwtdzh/temp-storage/blob/main/chromego-filter-then-push-github.list"
 SUBSCRIPTION_LIST="$WORK_DIR/chromego-filter-then-push-github.list"
 REPO_URL="git@github.com:bang-dream/free-scriptions.git"
 REPO_DIR="$WORK_DIR/repo"
@@ -119,6 +120,7 @@ download_singbox() {
 }
 
 download_subscriptions() {
+  fetch_subscription_list
   [ -s "$SUBSCRIPTION_LIST" ] || die "subscription list not found: $SUBSCRIPTION_LIST"
   rm -rf "$NODES_DIR"
   mkdir -p "$NODES_DIR"
@@ -141,6 +143,41 @@ download_subscriptions() {
 
   [ "$ok" -gt 0 ] || die "no subscription YAML files downloaded"
   log "  Downloaded $ok subscription files"
+}
+
+fetch_subscription_list() {
+  local url="$SUBSCRIPTION_LIST_URL"
+  local raw_url="$url"
+  local owner repo branch path
+
+  if [[ "$url" =~ ^https://github.com/([^/]+)/([^/]+)/blob/([^/]+)/(.*)$ ]]; then
+    owner="${BASH_REMATCH[1]}"
+    repo="${BASH_REMATCH[2]}"
+    branch="${BASH_REMATCH[3]}"
+    path="${BASH_REMATCH[4]}"
+    raw_url="https://raw.githubusercontent.com/$owner/$repo/$branch/$path"
+  else
+    owner=""
+    repo=""
+    branch=""
+    path=""
+  fi
+
+  log "  Fetching subscription list: $url"
+  if curl -L --fail --retry 2 --connect-timeout 15 --max-time 60 -o "$SUBSCRIPTION_LIST" "$raw_url"; then
+    log "  Subscription list fetched over HTTPS"
+    return
+  fi
+
+  if [ -n "$owner" ] && [ -n "$repo" ] && [ -n "$branch" ] && [ -n "$path" ]; then
+    log "  HTTPS fetch failed; trying GitHub SSH fallback"
+    if git archive --remote="git@github.com:$owner/$repo.git" "$branch" "$path" | tar -xO > "$SUBSCRIPTION_LIST"; then
+      log "  Subscription list fetched over GitHub SSH"
+      return
+    fi
+  fi
+
+  die "failed to fetch subscription list from $url"
 }
 
 process_nodes() {
