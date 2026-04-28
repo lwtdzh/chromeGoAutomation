@@ -27,6 +27,7 @@ XRAY_EXE="$WORK_DIR/xray/xray"
 SINGBOX_EXE="$WORK_DIR/sing-box/sing-box"
 TEST_URL="https://www.gstatic.com/generate_204"
 PROXY_TEST_TIMEOUT="${PROXY_TEST_TIMEOUT:-4}"
+TEST_JOBS="${TEST_JOBS:-12}"
 
 log() { printf '%s\n' "$*"; }
 die() { printf 'ERROR: %s\n' "$*" >&2; exit 1; }
@@ -188,8 +189,9 @@ fetch_subscription_list() {
 }
 
 process_nodes() {
-  python3 - "$WORK_DIR" "$NODES_DIR" "$OUTPUT_FILE" "$XRAY_EXE" "$SINGBOX_EXE" "$TEST_URL" "$SKIP_TEST" "$PROXY_TEST_TIMEOUT" <<'PY'
+  python3 - "$WORK_DIR" "$NODES_DIR" "$OUTPUT_FILE" "$XRAY_EXE" "$SINGBOX_EXE" "$TEST_URL" "$SKIP_TEST" "$PROXY_TEST_TIMEOUT" "$TEST_JOBS" <<'PY'
 import base64
+import concurrent.futures
 import json
 import os
 import random
@@ -201,9 +203,10 @@ import time
 import urllib.parse
 import urllib.request
 
-work_dir, nodes_dir, output_file, xray_exe, singbox_exe, test_url, skip_test_s, proxy_test_timeout_s = sys.argv[1:]
+work_dir, nodes_dir, output_file, xray_exe, singbox_exe, test_url, skip_test_s, proxy_test_timeout_s, test_jobs_s = sys.argv[1:]
 skip_test = skip_test_s == "1"
 proxy_test_timeout = int(proxy_test_timeout_s)
+test_jobs = max(1, int(test_jobs_s))
 fake_servers = ("127.", "0.0.0.0", "localhost", "192.168.", "10.", "172.")
 xray_protocols = {"vmess", "vless", "ss", "trojan"}
 singbox_protocols = {"hysteria2", "hysteria", "tuic"}
@@ -576,6 +579,7 @@ log(f"  Sorted: {len(singbox_nodes)} sing-box first, then {len(xray_nodes)} xray
 
 log("Step 3: Testing proxies...")
 log(f"  Proxy probe timeout: {proxy_test_timeout}s")
+log(f"  Parallel test jobs: {test_jobs}")
 stats = {"xray_ok": 0, "xray_fail": 0, "singbox_ok": 0, "singbox_fail": 0}
 if skip_test:
     log("  SKIP TEST - including all")
@@ -586,7 +590,9 @@ else:
     valid = []
     subprocess.run(["pkill", "-x", os.path.basename(xray_exe)], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     subprocess.run(["pkill", "-x", os.path.basename(singbox_exe)], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-    for idx, node in enumerate(sorted_nodes, 1):
+
+    def run_one(item):
+        idx, node = item
         port = free_port()
         if node["type"] in xray_protocols:
             config = xray_config(node, port)
@@ -597,17 +603,31 @@ else:
             exe = singbox_exe
             ok_key, fail_key = "singbox_ok", "singbox_fail"
         if not config:
-            log(f"  [{idx}] SKIP: {node['server']}:{node['port']} [{node['type']}]")
-            continue
+            return idx, node, "skip", ok_key, fail_key, "no config"
         ok, reason = test_node(node, config, exe, port)
-        if ok:
+        return idx, node, "ok" if ok else "fail", ok_key, fail_key, reason
+
+    results = []
+    with concurrent.futures.ThreadPoolExecutor(max_workers=test_jobs) as executor:
+        future_map = {executor.submit(run_one, item): item for item in enumerate(sorted_nodes, 1)}
+        for future in concurrent.futures.as_completed(future_map):
+            idx, node, status, ok_key, fail_key, reason = future.result()
+            results.append((idx, node, status, ok_key, fail_key, reason))
+            if status == "skip":
+                log(f"  [{idx}] SKIP: {node['server']}:{node['port']} [{node['type']}]")
+            elif status == "ok":
+                log(f"  [{idx}] OK: {node['server']}:{node['port']} [{node['type']}]")
+            else:
+                log(f"  [{idx}] FAIL: {node['server']}:{node['port']} [{node['type']}] - {reason}")
+
+    for idx, node, status, ok_key, fail_key, reason in sorted(results, key=lambda item: item[0]):
+        if status == "ok":
             valid.append(node)
             stats[ok_key] += 1
-            log(f"  [{idx}] OK: {node['server']}:{node['port']} [{node['type']}]")
+        elif status == "fail":
+            stats[fail_key] += 1
         else:
             stats[fail_key] += 1
-            log(f"  [{idx}] FAIL: {node['server']}:{node['port']} [{node['type']}] - {reason}")
-        time.sleep(0.1)
 
 log()
 log(f"  Xray: ok={stats['xray_ok']}, fail={stats['xray_fail']}")
