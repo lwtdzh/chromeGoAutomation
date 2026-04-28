@@ -171,10 +171,16 @@ fetch_subscription_list() {
 
   if [ -n "$owner" ] && [ -n "$repo" ] && [ -n "$branch" ] && [ -n "$path" ]; then
     log "  HTTPS fetch failed; trying GitHub SSH fallback"
-    if git archive --remote="git@github.com:$owner/$repo.git" "$branch" "$path" | tar -xO > "$SUBSCRIPTION_LIST"; then
+    local tmp
+    tmp="$(mktemp -d)"
+    if git clone --depth 1 --branch "$branch" "git@github.com:$owner/$repo.git" "$tmp/repo" >/dev/null 2>&1 \
+      && [ -s "$tmp/repo/$path" ]; then
+      cp "$tmp/repo/$path" "$SUBSCRIPTION_LIST"
+      rm -rf "$tmp"
       log "  Subscription list fetched over GitHub SSH"
       return
     fi
+    rm -rf "$tmp"
   fi
 
   die "failed to fetch subscription list from $url"
