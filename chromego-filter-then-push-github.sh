@@ -26,6 +26,7 @@ REPO_DIR="$WORK_DIR/repo"
 XRAY_EXE="$WORK_DIR/xray/xray"
 SINGBOX_EXE="$WORK_DIR/sing-box/sing-box"
 TEST_URL="https://www.gstatic.com/generate_204"
+PROXY_TEST_TIMEOUT="${PROXY_TEST_TIMEOUT:-4}"
 
 log() { printf '%s\n' "$*"; }
 die() { printf 'ERROR: %s\n' "$*" >&2; exit 1; }
@@ -187,7 +188,7 @@ fetch_subscription_list() {
 }
 
 process_nodes() {
-  python3 - "$WORK_DIR" "$NODES_DIR" "$OUTPUT_FILE" "$XRAY_EXE" "$SINGBOX_EXE" "$TEST_URL" "$SKIP_TEST" <<'PY'
+  python3 - "$WORK_DIR" "$NODES_DIR" "$OUTPUT_FILE" "$XRAY_EXE" "$SINGBOX_EXE" "$TEST_URL" "$SKIP_TEST" "$PROXY_TEST_TIMEOUT" <<'PY'
 import base64
 import json
 import os
@@ -200,8 +201,9 @@ import time
 import urllib.parse
 import urllib.request
 
-work_dir, nodes_dir, output_file, xray_exe, singbox_exe, test_url, skip_test_s = sys.argv[1:]
+work_dir, nodes_dir, output_file, xray_exe, singbox_exe, test_url, skip_test_s, proxy_test_timeout_s = sys.argv[1:]
 skip_test = skip_test_s == "1"
+proxy_test_timeout = int(proxy_test_timeout_s)
 fake_servers = ("127.", "0.0.0.0", "localhost", "192.168.", "10.", "172.")
 xray_protocols = {"vmess", "vless", "ss", "trojan"}
 singbox_protocols = {"hysteria2", "hysteria", "tuic"}
@@ -525,7 +527,7 @@ def test_node(node, config_text, proxy_exe, port):
         time.sleep(1.5 if node["type"] in singbox_protocols else 0.8)
         if proc.poll() is not None:
             return False, f"startup failed (exit: {proc.returncode})"
-        out = subprocess.run(["curl", "--socks5-hostname", f"127.0.0.1:{port}", "-m", "10", "-k", "-s", "-o", os.devnull, "-w", "%{http_code}", test_url], text=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, timeout=15)
+        out = subprocess.run(["curl", "--socks5-hostname", f"127.0.0.1:{port}", "-m", str(proxy_test_timeout), "-k", "-s", "-o", os.devnull, "-w", "%{http_code}", test_url], text=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, timeout=proxy_test_timeout + 5)
         code = out.stdout.strip()
         return code in ("200", "204"), f"HTTP {code}"
     except Exception as e:
@@ -573,6 +575,7 @@ log(f"  Singbox (hysteria2/hysteria/tuic): {len(singbox_nodes)}")
 log(f"  Sorted: {len(singbox_nodes)} sing-box first, then {len(xray_nodes)} xray")
 
 log("Step 3: Testing proxies...")
+log(f"  Proxy probe timeout: {proxy_test_timeout}s")
 stats = {"xray_ok": 0, "xray_fail": 0, "singbox_ok": 0, "singbox_fail": 0}
 if skip_test:
     log("  SKIP TEST - including all")
