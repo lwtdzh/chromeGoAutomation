@@ -575,8 +575,8 @@ if skip_test:
     stats["singbox_ok"] = len(singbox_nodes)
 else:
     valid = []
-    subprocess.run(["pkill", "-f", os.path.basename(xray_exe)], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-    subprocess.run(["pkill", "-f", os.path.basename(singbox_exe)], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    subprocess.run(["pkill", "-x", os.path.basename(xray_exe)], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    subprocess.run(["pkill", "-x", os.path.basename(singbox_exe)], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     for idx, node in enumerate(sorted_nodes, 1):
         port = free_port()
         if node["type"] in xray_protocols:
