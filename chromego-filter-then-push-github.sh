@@ -23,6 +23,8 @@ SUBSCRIPTION_LIST_URL="https://github.com/lwtdzh/temp-storage/blob/main/chromego
 SUBSCRIPTION_LIST="$WORK_DIR/chromego-filter-then-push-github.list"
 REPO_URL="git@github.com:bang-dream/free-scriptions.git"
 REPO_DIR="$WORK_DIR/repo"
+REPO_SSH_KEY="${REPO_SSH_KEY:-/root/.ssh/id_ed25519_extra}"
+REPO_GIT_SSH_COMMAND="${REPO_GIT_SSH_COMMAND:-ssh -F /dev/null -o HostName=ssh.github.com -o Port=443 -o User=git -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new -i $REPO_SSH_KEY}"
 XRAY_EXE="$WORK_DIR/xray/xray"
 SINGBOX_EXE="$WORK_DIR/sing-box/sing-box"
 TEST_URL="https://www.gstatic.com/generate_204"
@@ -670,11 +672,11 @@ push_to_github() {
 
   log "Step 6: Pushing to GitHub..."
   if [ -d "$REPO_DIR/.git" ]; then
-    git -C "$REPO_DIR" fetch origin
+    GIT_SSH_COMMAND="$REPO_GIT_SSH_COMMAND" git -C "$REPO_DIR" fetch origin
     git -C "$REPO_DIR" reset --hard origin/main
   else
     rm -rf "$REPO_DIR"
-    git clone "$REPO_URL" "$REPO_DIR"
+    GIT_SSH_COMMAND="$REPO_GIT_SSH_COMMAND" git clone "$REPO_URL" "$REPO_DIR"
   fi
 
   cp "$OUTPUT_FILE" "$REPO_DIR/list"
@@ -686,7 +688,7 @@ push_to_github() {
     return
   fi
   git -C "$REPO_DIR" commit -m "Update nodes - $(date '+%Y-%m-%d %H:%M')"
-  git -C "$REPO_DIR" push origin main
+  GIT_SSH_COMMAND="$REPO_GIT_SSH_COMMAND" git -C "$REPO_DIR" push origin main
   log "  Pushed to GitHub"
 }
 
