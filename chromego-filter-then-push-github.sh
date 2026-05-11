@@ -18,18 +18,24 @@ done
 
 WORK_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 NODES_DIR="$WORK_DIR/nodes"
-OUTPUT_FILE="$WORK_DIR/list"
+OUTPUT_FILE="$WORK_DIR/result.list"
 SUBSCRIPTION_LIST_URL="https://github.com/lwtdzh/temp-storage/blob/main/chromego-filter-then-push-github.list"
 SUBSCRIPTION_LIST="$WORK_DIR/chromego-filter-then-push-github.list"
 REPO_URL="git@github.com:bang-dream/free-scriptions.git"
 REPO_DIR="$WORK_DIR/repo"
 REPO_SSH_KEY="${REPO_SSH_KEY:-/root/.ssh/id_ed25519_extra}"
 REPO_GIT_SSH_COMMAND="${REPO_GIT_SSH_COMMAND:-ssh -F /dev/null -o HostName=ssh.github.com -o Port=443 -o User=git -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new -i $REPO_SSH_KEY}"
-XRAY_EXE="$WORK_DIR/xray/xray"
-SINGBOX_EXE="$WORK_DIR/sing-box/sing-box"
+OS_FAMILY="linux"
+EXE_SUFFIX=""
+case "$(uname -s)" in
+  MINGW*|MSYS*|CYGWIN*) OS_FAMILY="windows"; EXE_SUFFIX=".exe" ;;
+esac
+XRAY_EXE="$WORK_DIR/xray/xray$EXE_SUFFIX"
+SINGBOX_EXE="$WORK_DIR/sing-box/sing-box$EXE_SUFFIX"
 TEST_URL="https://www.gstatic.com/generate_204"
 PROXY_TEST_TIMEOUT="${PROXY_TEST_TIMEOUT:-4}"
 TEST_JOBS="${TEST_JOBS:-12}"
+PYTHON_BIN="${PYTHON_BIN:-}"
 
 log() { printf '%s\n' "$*"; }
 die() { printf 'ERROR: %s\n' "$*" >&2; exit 1; }
@@ -42,9 +48,18 @@ need_cmd() {
 
 install_packages_if_needed() {
   local missing=()
-  for cmd in curl git python3 unzip tar; do
+  for cmd in curl git unzip tar; do
     command -v "$cmd" >/dev/null 2>&1 || missing+=("$cmd")
   done
+  if [ -z "$PYTHON_BIN" ]; then
+    if command -v python3 >/dev/null 2>&1 && python3 --version >/dev/null 2>&1; then
+      PYTHON_BIN="python3"
+    elif command -v python >/dev/null 2>&1 && python --version >/dev/null 2>&1; then
+      PYTHON_BIN="python"
+    else
+      missing+=("python")
+    fi
+  fi
   if [ "${#missing[@]}" -eq 0 ]; then
     return
   fi
@@ -67,7 +82,7 @@ arch_name() {
 
 github_latest_asset_url() {
   local repo="$1" pattern="$2"
-  python3 - "$repo" "$pattern" <<'PY'
+  "$PYTHON_BIN" - "$repo" "$pattern" <<'PY'
 import json, re, sys, urllib.request
 repo, pattern = sys.argv[1], sys.argv[2]
 req = urllib.request.Request(
@@ -90,10 +105,23 @@ PY
 download_xray() {
   [ -x "$XRAY_EXE" ] && { log "  xray already exists"; return; }
   local arch asset tmp
+  if [ "$OS_FAMILY" = "windows" ] && [ -f "$HOME/Desktop/v2rayN-windows-64/bin/xray/xray.exe" ]; then
+    mkdir -p "$WORK_DIR/xray"
+    cp "$HOME/Desktop/v2rayN-windows-64/bin/xray/xray.exe" "$XRAY_EXE"
+    chmod +x "$XRAY_EXE"
+    log "  xray copied from local v2rayN"
+    return
+  fi
   arch="$(arch_name)"
   mkdir -p "$WORK_DIR/xray"
   tmp="$(mktemp -d)"
-  if [ "$arch" = "arm64" ]; then
+  if [ "$OS_FAMILY" = "windows" ]; then
+    if [ "$arch" = "arm64" ]; then
+      asset="$(github_latest_asset_url XTLS/Xray-core 'Xray-windows-arm64-v8a\.zip$')"
+    else
+      asset="$(github_latest_asset_url XTLS/Xray-core 'Xray-windows-64\.zip$')"
+    fi
+  elif [ "$arch" = "arm64" ]; then
     asset="$(github_latest_asset_url XTLS/Xray-core 'Xray-linux-arm64-v8a\.zip$')"
   else
     asset="$(github_latest_asset_url XTLS/Xray-core 'Xray-linux-64\.zip$')"
@@ -101,7 +129,8 @@ download_xray() {
   log "  Downloading xray: $asset"
   curl -L --fail --retry 3 -o "$tmp/xray.zip" "$asset"
   unzip -q "$tmp/xray.zip" -d "$tmp/xray"
-  cp "$tmp/xray/xray" "$XRAY_EXE"
+  find "$tmp/xray" -type f -name "xray$EXE_SUFFIX" -exec cp {} "$XRAY_EXE" \; -quit
+  [ -f "$XRAY_EXE" ] || die "xray binary was not found in downloaded archive"
   chmod +x "$XRAY_EXE"
   rm -rf "$tmp"
   log "  xray installed"
@@ -110,21 +139,40 @@ download_xray() {
 download_singbox() {
   [ -x "$SINGBOX_EXE" ] && { log "  sing-box already exists"; return; }
   local arch asset tmp
+  if [ "$OS_FAMILY" = "windows" ] && [ -f "$HOME/Desktop/v2rayN-windows-64/bin/sing_box/sing-box.exe" ]; then
+    mkdir -p "$WORK_DIR/sing-box"
+    cp "$HOME/Desktop/v2rayN-windows-64/bin/sing_box/sing-box.exe" "$SINGBOX_EXE"
+    chmod +x "$SINGBOX_EXE"
+    log "  sing-box copied from local v2rayN"
+    return
+  fi
   arch="$(arch_name)"
   mkdir -p "$WORK_DIR/sing-box"
   tmp="$(mktemp -d)"
-  asset="$(github_latest_asset_url SagerNet/sing-box "sing-box-.*linux-${arch}.*\\.tar\\.gz$")"
-  log "  Downloading sing-box: $asset"
-  curl -L --fail --retry 3 -o "$tmp/sing-box.tar.gz" "$asset"
-  tar -xzf "$tmp/sing-box.tar.gz" -C "$tmp"
-  find "$tmp" -type f -name sing-box -exec cp {} "$SINGBOX_EXE" \; -quit
+  if [ "$OS_FAMILY" = "windows" ]; then
+    asset="$(github_latest_asset_url SagerNet/sing-box "sing-box-.*windows-${arch}.*\\.zip$")"
+    log "  Downloading sing-box: $asset"
+    curl -L --fail --retry 3 -o "$tmp/sing-box.zip" "$asset"
+    unzip -q "$tmp/sing-box.zip" -d "$tmp"
+  else
+    asset="$(github_latest_asset_url SagerNet/sing-box "sing-box-.*linux-${arch}.*\\.tar\\.gz$")"
+    log "  Downloading sing-box: $asset"
+    curl -L --fail --retry 3 -o "$tmp/sing-box.tar.gz" "$asset"
+    tar -xzf "$tmp/sing-box.tar.gz" -C "$tmp"
+  fi
+  find "$tmp" -type f -name "sing-box$EXE_SUFFIX" -exec cp {} "$SINGBOX_EXE" \; -quit
+  [ -f "$SINGBOX_EXE" ] || die "sing-box binary was not found in downloaded archive"
   [ -x "$SINGBOX_EXE" ] || chmod +x "$SINGBOX_EXE"
   rm -rf "$tmp"
   log "  sing-box installed"
 }
 
 download_subscriptions() {
-  fetch_subscription_list
+  if [ -s "$SUBSCRIPTION_LIST" ]; then
+    log "  Using local subscription list: $SUBSCRIPTION_LIST"
+  else
+    fetch_subscription_list
+  fi
   [ -s "$SUBSCRIPTION_LIST" ] || die "subscription list not found: $SUBSCRIPTION_LIST"
   rm -rf "$NODES_DIR"
   mkdir -p "$NODES_DIR"
@@ -191,7 +239,7 @@ fetch_subscription_list() {
 }
 
 process_nodes() {
-  python3 - "$WORK_DIR" "$NODES_DIR" "$OUTPUT_FILE" "$XRAY_EXE" "$SINGBOX_EXE" "$TEST_URL" "$SKIP_TEST" "$PROXY_TEST_TIMEOUT" "$TEST_JOBS" <<'PY'
+  "$PYTHON_BIN" - "$WORK_DIR" "$NODES_DIR" "$OUTPUT_FILE" "$XRAY_EXE" "$SINGBOX_EXE" "$TEST_URL" "$SKIP_TEST" "$PROXY_TEST_TIMEOUT" "$TEST_JOBS" <<'PY'
 import base64
 import concurrent.futures
 import json
@@ -590,8 +638,11 @@ if skip_test:
     stats["singbox_ok"] = len(singbox_nodes)
 else:
     valid = []
-    subprocess.run(["pkill", "-x", os.path.basename(xray_exe)], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-    subprocess.run(["pkill", "-x", os.path.basename(singbox_exe)], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    for name in (os.path.basename(xray_exe), os.path.basename(singbox_exe)):
+        try:
+            subprocess.run(["pkill", "-x", name], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        except FileNotFoundError:
+            pass
 
     def run_one(item):
         idx, node = item
@@ -679,10 +730,10 @@ push_to_github() {
     GIT_SSH_COMMAND="$REPO_GIT_SSH_COMMAND" git clone "$REPO_URL" "$REPO_DIR"
   fi
 
-  cp "$OUTPUT_FILE" "$REPO_DIR/list"
+  cp "$OUTPUT_FILE" "$REPO_DIR/result.list"
   git -C "$REPO_DIR" config user.name "$(git -C "$REPO_DIR" config user.name || echo lwtdzh)"
   git -C "$REPO_DIR" config user.email "$(git -C "$REPO_DIR" config user.email || echo root@debian-termux.local)"
-  git -C "$REPO_DIR" add list
+  git -C "$REPO_DIR" add result.list
   if git -C "$REPO_DIR" diff --cached --quiet; then
     log "  No changes to push"
     return

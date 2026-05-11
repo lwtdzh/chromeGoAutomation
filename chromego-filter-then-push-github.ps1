@@ -1,10 +1,10 @@
-# Node processor - Enhanced with hysteria2, hysteria, TUIC support
+﻿# Node processor - Enhanced with hysteria2, hysteria, TUIC support
 # Naming: 【ChromeGo】x-y (x=serial number, y=country)
 param([switch]$SkipTest)
 
 $WorkDir = "$PSScriptRoot"
 $NodesDir = "$WorkDir\nodes"
-$OutputFile = "$WorkDir\list"
+$OutputFile = "$WorkDir\result.list"
 $RepoUrl = "git@github.com:bang-dream/free-scriptions.git"
 $XrayExe = "$WorkDir\xray\xray.exe"
 $SingboxExe = "$WorkDir\sing-box\sing-box.exe"
@@ -261,7 +261,7 @@ function ConvertNodeToV2rayNString($Node, $SerialNum, $Country) {
     $Port = $Node.port
     $Pass = if ($Node.password) { $Node.password } elseif ($Node.uuid) { $Node.uuid } else { "" }
     
-    # New naming format: 【ChromeGo】number-country (no Chinese chars to avoid mojibake)
+    # New naming format: 【ChromeGo】number-country
     $AliasName = "【ChromeGo】" + $SerialNum + "-" + $Country
     # Use proper URL encoding
     $NameEncoded = [uri]::EscapeDataString($AliasName)
@@ -485,9 +485,9 @@ function PushToGitHub($File, $Repo, $Dir) {
         git clone $Repo $RepoDir 2>&1 | Out-Null
     }
     if (-not (Test-Path $RepoDir)) { Write-Host "Clone failed" -ForegroundColor Red; return }
-    Copy-Item $File "$RepoDir\list" -Force
+    Copy-Item $File "$RepoDir\result.list" -Force
     Push-Location $RepoDir
-    git add list 2>&1 | Out-Null
+    git add result.list 2>&1 | Out-Null
     $CommitMsg = "Update nodes - " + (Get-Date -Format 'yyyy-MM-dd HH:mm')
     git commit -m $CommitMsg 2>&1 | Out-Null
     git push origin main 2>&1 | Out-Null
