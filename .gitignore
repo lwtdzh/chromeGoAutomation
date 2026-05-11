@@ -2,6 +2,7 @@ xray/
 sing-box/
 nodes/
 repo/
+logs/
 *.log
 *.tmp
 list
