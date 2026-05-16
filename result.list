@@ -1,38 +1,22 @@
 # ChromeGo Node List
-# Updated: 2026-05-16 05:03:42
-# Total: 33
+# Updated: 2026-05-17 05:02:58
+# Total: 17
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-hysteria2://917bb394-8d91-4eee-956d-b81aba3aed70@tw3.757866.xyz:8080?sni=tw3.757866.xyz#%E3%80%90ChromeGo%E3%80%911-TW
-hysteria2://917bb394-8d91-4eee-956d-b81aba3aed70@5gzdx.233235.xyz:8080?sni=5gzdx.233235.xyz#%E3%80%90ChromeGo%E3%80%912-TW
-hysteria2://917bb394-8d91-4eee-956d-b81aba3aed70@hyfnjp03.352343.cc:8080?sni=hyfnjp03.352343.cc#%E3%80%90ChromeGo%E3%80%913-JP
-hysteria2://917bb394-8d91-4eee-956d-b81aba3aed70@sg17.352343.cc:8080?sni=sg17.352343.cc#%E3%80%90ChromeGo%E3%80%914-SG
-hysteria2://917bb394-8d91-4eee-956d-b81aba3aed70@hkmax06.767887.xyz:8080?sni=hkmax06.767887.xyz#%E3%80%90ChromeGo%E3%80%915-SG
-hysteria2://917bb394-8d91-4eee-956d-b81aba3aed70@hkmax03.476579.xyz:8080?sni=hkmax03.476579.xyz#%E3%80%90ChromeGo%E3%80%916-SG
-hysteria2://917bb394-8d91-4eee-956d-b81aba3aed70@sg12.352343.cc:8080?sni=sg12.352343.cc#%E3%80%90ChromeGo%E3%80%917-SG
-hysteria2://917bb394-8d91-4eee-956d-b81aba3aed70@hkmax02.352343.cc:8080?sni=hkmax02.352343.cc#%E3%80%90ChromeGo%E3%80%918-SG
-hysteria2://917bb394-8d91-4eee-956d-b81aba3aed70@sg15.476579.xyz:8080?sni=sg15.476579.xyz#%E3%80%90ChromeGo%E3%80%919-SG
-hysteria2://917bb394-8d91-4eee-956d-b81aba3aed70@sg04.352343.cc:8080?sni=sg04.352343.cc#%E3%80%90ChromeGo%E3%80%9110-SG
-hysteria2://917bb394-8d91-4eee-956d-b81aba3aed70@sg19.453521.xyz:8080?sni=sg19.453521.xyz#%E3%80%90ChromeGo%E3%80%9111-SG
-hysteria2://917bb394-8d91-4eee-956d-b81aba3aed70@sg06.453521.xyz:8080?sni=sg06.453521.xyz#%E3%80%90ChromeGo%E3%80%9112-SG
-hysteria2://917bb394-8d91-4eee-956d-b81aba3aed70@sg03.344233.cc:8080?sni=sg03.344233.cc#%E3%80%90ChromeGo%E3%80%9113-SG
-hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-in-001.fastervpn.world:443?sni=vpn-in-001.fastervpn.world#%E3%80%90ChromeGo%E3%80%9114-IN
-hysteria2://917bb394-8d91-4eee-956d-b81aba3aed70@1jp003.156786.xyz:8081?sni=1jp003.156786.xyz#%E3%80%90ChromeGo%E3%80%9115-JP
-hysteria2://917bb394-8d91-4eee-956d-b81aba3aed70@sg16.453521.xyz:8080?sni=sg16.453521.xyz#%E3%80%90ChromeGo%E3%80%9116-SG
-hysteria2://917bb394-8d91-4eee-956d-b81aba3aed70@sg13.352343.cc:8080?sni=sg13.352343.cc#%E3%80%90ChromeGo%E3%80%9117-SG
-hysteria2://917bb394-8d91-4eee-956d-b81aba3aed70@sg18.352343.cc:8080?sni=sg18.352343.cc#%E3%80%90ChromeGo%E3%80%9118-SG
-hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-us-006.fastervpn.world:443#%E3%80%90ChromeGo%E3%80%9119-US
-hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-us-001.fastervpn.world:443?sni=vpn-us-001.fastervpn.world#%E3%80%90ChromeGo%E3%80%9120-US
-hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-us-005.fastervpn.world:443?sni=vpn-us-005.fastervpn.world#%E3%80%90ChromeGo%E3%80%9121-US
-tuic://36106e0f-4d9a-470b-a3fd-535f3b7a1e92:dongtaiwang.com@5.178.101.117:30006?congestion_controller=bbr&alpn=h3&sni=www.microsoft.com&udp_relay_mode=native#%E3%80%90ChromeGo%E3%80%9122-DE
-tuic://9bbd1f42-7ae7-4239-bd10-a68de95e3295:dongtaiwang.com@ip1.758733.xyz:10088?congestion_controller=bbr&alpn=h3&sni=apple.com&udp_relay_mode=native#%E3%80%90ChromeGo%E3%80%9123-FR
-hysteria2://917bb394-8d91-4eee-956d-b81aba3aed70@hkt05.476579.xyz:8080?sni=hkt05.476579.xyz#%E3%80%90ChromeGo%E3%80%9124-SG
-hysteria2://917bb394-8d91-4eee-956d-b81aba3aed70@1sg001.476579.xyz:8443?sni=1sg001.476579.xyz#%E3%80%90ChromeGo%E3%80%9125-SG
-hysteria2://917bb394-8d91-4eee-956d-b81aba3aed70@sg21.453521.xyz:8080?sni=sg21.453521.xyz#%E3%80%90ChromeGo%E3%80%9126-SG
-hysteria2://917bb394-8d91-4eee-956d-b81aba3aed70@sg11.352343.cc:8080?sni=sg11.352343.cc#%E3%80%90ChromeGo%E3%80%9127-SG
-vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJEyOC1VUyIsImFkZCI6IjgyLjE5OC4yNDYuMjUwIiwicG9ydCI6IjE4MCIsImlkIjoiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsInRscyI6IiIsInNuaSI6IiIsImhvc3QiOiIiLCJwYXRoIjoiIn0=
-vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJEyOS1VUyIsImFkZCI6IjgyLjE5OC4yNDYuMjMzIiwicG9ydCI6IjE4MCIsImlkIjoiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsInRscyI6IiIsInNuaSI6IiIsImhvc3QiOiIiLCJwYXRoIjoiIn0=
-vless://231e88bb-3a39-4f26-848e-908f83070283@141.11.197.127:55269?type=tcp&security=reality&pbk=i1e3hqslC-n7XGp72HmDKU7ZuRk72pHbzujbNaYF-0s&sid=8f&sni=vk.ru#%E3%80%90ChromeGo%E3%80%9130-NL
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@220.86.228.109:32603?type=ws&security=tls&sni=sni.111000.dns.army#%E3%80%90ChromeGo%E3%80%9131-KR
-trojan://917bb394-8d91-4eee-956d-b81aba3aed70@tw4.453521.xyz:8080?sni=tw4.453521.xyz#%E3%80%90ChromeGo%E3%80%9132-TW
-vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJEzMy1VUyIsImFkZCI6IjgyLjE5OC4yNDYuMjE0IiwicG9ydCI6IjE4MCIsImlkIjoiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIiwiYWlkIjoiMCIsInNjeSI6ImFlcy0xMjgtZ2NtIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJ0bHMiOiIiLCJzbmkiOiIiLCJob3N0IjoiIiwicGF0aCI6IiJ9
+hysteria2://4ZsHI2OW3j@45.91.81.231:443?sni=45.91.81.231#%E3%80%90ChromeGo%E3%80%911-US
+hysteria2://10550754-cf62-3d3b-ba6a-50be27a275d7@195.133.53.33:443?sni=s516.okgfw.top#%E3%80%90ChromeGo%E3%80%912-RU
+tuic://36106e0f-4d9a-470b-a3fd-535f3b7a1e92:dongtaiwang.com@5.178.101.117:30006?congestion_controller=bbr&alpn=h3&sni=www.microsoft.com&udp_relay_mode=native#%E3%80%90ChromeGo%E3%80%913-DE
+hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@13.115.3.140:443?sni=https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#%E3%80%90ChromeGo%E3%80%914-JP
+hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@13.231.162.174:443?sni=https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#%E3%80%90ChromeGo%E3%80%915-JP
+hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@13.231.21.110:443?sni=https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#%E3%80%90ChromeGo%E3%80%916-JP
+hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@3.112.239.167:443?sni=https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#%E3%80%90ChromeGo%E3%80%917-JP
+hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@43.205.214.214:443?sni=https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#%E3%80%90ChromeGo%E3%80%918-IN
+hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@43.205.231.160:443?sni=https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#%E3%80%90ChromeGo%E3%80%919-IN
+hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@43.205.254.42:443?sni=https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#%E3%80%90ChromeGo%E3%80%9110-IN
+hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@160.187.100.109:443?sni=https%3A%2F%2Ft.me%2FWangCai2#%E3%80%90ChromeGo%E3%80%9111-TW
+hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-us-005.fastervpn.world:443?sni=vpn-us-005.fastervpn.world#%E3%80%90ChromeGo%E3%80%9112-US
+hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@116.206.92.109:443?sni=116.206.92.109#%E3%80%90ChromeGo%E3%80%9113-JP
+vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJExNC1ISyIsImFkZCI6IjEwMy4xODEuMTY0LjE0NSIsInBvcnQiOiI1NDAyMiIsImlkIjoiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwiYWlkIjoiNjQiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJ0bHMiOiIiLCJzbmkiOiIiLCJob3N0IjoiIiwicGF0aCI6IiJ9
+vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJExNS1VUyIsImFkZCI6IjgyLjE5OC4yNDYuMjMzIiwicG9ydCI6IjE4MCIsImlkIjoiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsInRscyI6IiIsInNuaSI6IiIsImhvc3QiOiIiLCJwYXRoIjoiIn0=
+vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJExNi1VUyIsImFkZCI6IjgyLjE5OC4yNDYuMjUwIiwicG9ydCI6IjE4MCIsImlkIjoiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsInRscyI6IiIsInNuaSI6IiIsImhvc3QiOiIiLCJwYXRoIjoiIn0=
+vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJExNy1VUyIsImFkZCI6IjgyLjE5OC4yNDYuMzciLCJwb3J0IjoiMTgwIiwiaWQiOiJkMTNmYzJmNS0zZTA1LTQ3OTUtODFlYi00NDE0M2EwOWU1NTIiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwidGxzIjoiIiwic25pIjoiIiwiaG9zdCI6IiIsInBhdGgiOiIifQ==
