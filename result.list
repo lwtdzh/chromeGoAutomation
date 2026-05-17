@@ -1,22 +1,16 @@
 # ChromeGo Node List
-# Updated: 2026-05-17 05:02:58
-# Total: 17
+# Updated: 2026-05-18 05:04:09
+# Total: 11
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-hysteria2://4ZsHI2OW3j@45.91.81.231:443?sni=45.91.81.231#%E3%80%90ChromeGo%E3%80%911-US
-hysteria2://10550754-cf62-3d3b-ba6a-50be27a275d7@195.133.53.33:443?sni=s516.okgfw.top#%E3%80%90ChromeGo%E3%80%912-RU
-tuic://36106e0f-4d9a-470b-a3fd-535f3b7a1e92:dongtaiwang.com@5.178.101.117:30006?congestion_controller=bbr&alpn=h3&sni=www.microsoft.com&udp_relay_mode=native#%E3%80%90ChromeGo%E3%80%913-DE
-hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@13.115.3.140:443?sni=https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#%E3%80%90ChromeGo%E3%80%914-JP
-hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@13.231.162.174:443?sni=https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#%E3%80%90ChromeGo%E3%80%915-JP
-hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@13.231.21.110:443?sni=https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#%E3%80%90ChromeGo%E3%80%916-JP
-hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@3.112.239.167:443?sni=https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#%E3%80%90ChromeGo%E3%80%917-JP
-hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@43.205.214.214:443?sni=https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#%E3%80%90ChromeGo%E3%80%918-IN
-hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@43.205.231.160:443?sni=https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#%E3%80%90ChromeGo%E3%80%919-IN
-hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@43.205.254.42:443?sni=https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#%E3%80%90ChromeGo%E3%80%9110-IN
-hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@160.187.100.109:443?sni=https%3A%2F%2Ft.me%2FWangCai2#%E3%80%90ChromeGo%E3%80%9111-TW
-hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-us-005.fastervpn.world:443?sni=vpn-us-005.fastervpn.world#%E3%80%90ChromeGo%E3%80%9112-US
-hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@116.206.92.109:443?sni=116.206.92.109#%E3%80%90ChromeGo%E3%80%9113-JP
-vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJExNC1ISyIsImFkZCI6IjEwMy4xODEuMTY0LjE0NSIsInBvcnQiOiI1NDAyMiIsImlkIjoiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwiYWlkIjoiNjQiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJ0bHMiOiIiLCJzbmkiOiIiLCJob3N0IjoiIiwicGF0aCI6IiJ9
-vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJExNS1VUyIsImFkZCI6IjgyLjE5OC4yNDYuMjMzIiwicG9ydCI6IjE4MCIsImlkIjoiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsInRscyI6IiIsInNuaSI6IiIsImhvc3QiOiIiLCJwYXRoIjoiIn0=
-vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJExNi1VUyIsImFkZCI6IjgyLjE5OC4yNDYuMjUwIiwicG9ydCI6IjE4MCIsImlkIjoiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsInRscyI6IiIsInNuaSI6IiIsImhvc3QiOiIiLCJwYXRoIjoiIn0=
-vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJExNy1VUyIsImFkZCI6IjgyLjE5OC4yNDYuMzciLCJwb3J0IjoiMTgwIiwiaWQiOiJkMTNmYzJmNS0zZTA1LTQ3OTUtODFlYi00NDE0M2EwOWU1NTIiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwidGxzIjoiIiwic25pIjoiIiwiaG9zdCI6IiIsInBhdGgiOiIifQ==
+vless://73bcd72f-9545-4cb8-8daf-7d004501880d@83.229.126.127:32237?type=ws&security=tls&sni=dcsrzh.ccwu.cc#%E3%80%90ChromeGo%E3%80%911-HK
+vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJEyLVVTIiwiYWRkIjoiODIuMTk4LjI0Ni4yNTAiLCJwb3J0IjoiMTgwIiwiaWQiOiJkMTNmYzJmNS0zZTA1LTQ3OTUtODFlYi00NDE0M2EwOWU1NTIiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwidGxzIjoiIiwic25pIjoiIiwiaG9zdCI6IiIsInBhdGgiOiIifQ==
+vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJEzLVVTIiwiYWRkIjoiODIuMTk4LjI0Ni4yMzMiLCJwb3J0IjoiMTgwIiwiaWQiOiJkMTNmYzJmNS0zZTA1LTQ3OTUtODFlYi00NDE0M2EwOWU1NTIiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwidGxzIjoiIiwic25pIjoiIiwiaG9zdCI6IiIsInBhdGgiOiIifQ==
+vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJE0LUhLIiwiYWRkIjoiMTAzLjE4MS4xNjQuMTQ1IiwicG9ydCI6IjUxNTU2IiwiaWQiOiI0MTgwNDhhZi1hMjkzLTRiOTktOWIwYy05OGNhMzU4MGRkMjQiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwidGxzIjoiIiwic25pIjoiIiwiaG9zdCI6IiIsInBhdGgiOiIifQ==
+vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJE1LVVTIiwiYWRkIjoiODIuMTk4LjI0Ni4zNyIsInBvcnQiOiIxODAiLCJpZCI6ImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJ0bHMiOiIiLCJzbmkiOiIiLCJob3N0IjoiIiwicGF0aCI6IiJ9
+vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJE2LVVTIiwiYWRkIjoiODIuMTk4LjI0Ni45IiwicG9ydCI6IjE4MCIsImlkIjoiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsInRscyI6IiIsInNuaSI6IiIsImhvc3QiOiIiLCJwYXRoIjoiIn0=
+vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJE3LVVTIiwiYWRkIjoiODIuMTk4LjI0Ni4yMTQiLCJwb3J0IjoiMTgwIiwiaWQiOiJkMTNmYzJmNS0zZTA1LTQ3OTUtODFlYi00NDE0M2EwOWU1NTIiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwidGxzIjoiIiwic25pIjoiIiwiaG9zdCI6IiIsInBhdGgiOiIifQ==
+vless://c3f112fc-1041-Fade-b85c-5ed478daeeb9@s28233.cdn.ngenix.net:443?type=ws&security=tls&sni=s28233.cdn.ngenix.net#%E3%80%90ChromeGo%E3%80%918-RU
+vless://d37a75db-76b6-4db8-b213-0d5b044d138d@104.19.173.68:2053?type=ws&security=tls&sni=hio-awx.pages.dev#%E3%80%90ChromeGo%E3%80%919-CA
+vless://06b65903-406d-4a41-8463-6fd5c0ee7798@20.6.12.145:443?type=ws&security=tls&sni=sni.skylee4.cloudns.ch#%E3%80%90ChromeGo%E3%80%9110-SG
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.17.72.206:2053?type=ws&security=tls&sni=sni.111000.indevs.in#%E3%80%90ChromeGo%E3%80%9111-CA
