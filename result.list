@@ -1,14 +1,21 @@
 # ChromeGo Node List
-# Updated: 2026-05-20 05:02:58
-# Total: 9
+# Updated: 2026-05-21 05:03:24
+# Total: 16
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@160.187.100.109:443?sni=https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#%E3%80%90ChromeGo%E3%80%911-TW
-hysteria2://2545ab46-6306-4f2b-badd-5531f384d55f@212.192.13.242:4433?sni=hk1.xiaoliyu.cyou#%E3%80%90ChromeGo%E3%80%912-HK
-tuic://36106e0f-4d9a-470b-a3fd-535f3b7a1e92:dongtaiwang.com@5.178.101.117:30006?congestion_controller=bbr&alpn=h3&sni=www.microsoft.com&udp_relay_mode=native#%E3%80%90ChromeGo%E3%80%913-DE
-vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJE0LVVTIiwiYWRkIjoiODIuMTk4LjI0Ni4yNTAiLCJwb3J0IjoiMTgwIiwiaWQiOiJkMTNmYzJmNS0zZTA1LTQ3OTUtODFlYi00NDE0M2EwOWU1NTIiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwidGxzIjoiIiwic25pIjoiIiwiaG9zdCI6IiIsInBhdGgiOiIifQ==
-vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJE1LVVTIiwiYWRkIjoiODIuMTk4LjI0Ni4yMzMiLCJwb3J0IjoiMTgwIiwiaWQiOiJkMTNmYzJmNS0zZTA1LTQ3OTUtODFlYi00NDE0M2EwOWU1NTIiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwidGxzIjoiIiwic25pIjoiIiwiaG9zdCI6IiIsInBhdGgiOiIifQ==
-vless://ae0dd58e-e222-40bf-84ae-365a97532737@158.51.110.12:443?type=ws&security=tls&sni=pagescm.freen5.cc.cd#%E3%80%90ChromeGo%E3%80%916-JP
-vless://73bcd72f-9545-4cb8-8daf-7d004501880d@83.229.126.127:32237?type=ws&security=tls&sni=dcsrzh.ccwu.cc#%E3%80%90ChromeGo%E3%80%917-HK
-vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJE4LVVTIiwiYWRkIjoiODIuMTk4LjI0Ni4zNyIsInBvcnQiOiIxODAiLCJpZCI6ImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJ0bHMiOiIiLCJzbmkiOiIiLCJob3N0IjoiIiwicGF0aCI6IiJ9
-vless://73bcd72f-9545-4cb8-8daf-7d004501880d@210.156.180.102:16090?type=ws&security=tls&sni=dcsrzh.ccwu.cc#%E3%80%90ChromeGo%E3%80%919-JP
+hysteria2://github.com/Alvin9999-newpac/fanqiang@178.18.147.66:29900?sni=www.microsoft.com#%E3%80%90ChromeGo%E3%80%911-DE
+tuic://36106e0f-4d9a-470b-a3fd-535f3b7a1e92:dongtaiwang.com@5.178.101.117:30006?congestion_controller=bbr&alpn=h3&sni=www.microsoft.com&udp_relay_mode=native#%E3%80%90ChromeGo%E3%80%912-DE
+hysteria2://jOIItw1h4D@138.124.182.202:8443?sni=latviyaotpusk1.home.kg#%E3%80%90ChromeGo%E3%80%913-LV
+hysteria2://9ad97279-ff33-411f-a710-5383619d2469@usa2.vpnmiao.site:10001#%E3%80%90ChromeGo%E3%80%914-US
+hysteria2://4d092122-268a-4a1a-b23f-83931c5abc3a@flkf2.mangshe.xyz:2056?sni=flkf2.mangshe.xyz#%E3%80%90ChromeGo%E3%80%915-DE
+hysteria2://4d092122-268a-4a1a-b23f-83931c5abc3a@flkf3.mangshe.xyz:2056?sni=flkf3.mangshe.xyz#%E3%80%90ChromeGo%E3%80%916-DE
+hysteria2://4d092122-268a-4a1a-b23f-83931c5abc3a@hl1.mangshe.xyz:2056?sni=hl1.mangshe.xyz#%E3%80%90ChromeGo%E3%80%917-NL
+hysteria2://4d092122-268a-4a1a-b23f-83931c5abc3a@nlb1.mangshe.xyz:2056?sni=nlb1.mangshe.xyz#%E3%80%90ChromeGo%E3%80%918-DE
+vless://b43a13be-150c-4a6a-8501-b71c1b6476fb@srv181.towersflowerss.com:443?type=ws&sni=srv181.towersflowerss.com#%E3%80%90ChromeGo%E3%80%919-PL
+vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJExMC1VUyIsImFkZCI6IjgyLjE5OC4yNDYuOSIsInBvcnQiOiIxODAiLCJpZCI6ImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJ0bHMiOiIiLCJzbmkiOiIiLCJob3N0IjoiIiwicGF0aCI6IiJ9
+vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJExMS1VUyIsImFkZCI6IjgyLjE5OC4yNDYuMjUwIiwicG9ydCI6IjE4MCIsImlkIjoiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsInRscyI6IiIsInNuaSI6IiIsImhvc3QiOiIiLCJwYXRoIjoiIn0=
+vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJExMi1VUyIsImFkZCI6IjgyLjE5OC4yNDYuMjMzIiwicG9ydCI6IjE4MCIsImlkIjoiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsInRscyI6IiIsInNuaSI6IiIsImhvc3QiOiIiLCJwYXRoIjoiIn0=
+vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJExMy1VUyIsImFkZCI6IjgyLjE5OC4yNDYuMjE0IiwicG9ydCI6IjE4MCIsImlkIjoiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsInRscyI6IiIsInNuaSI6IiIsImhvc3QiOiIiLCJwYXRoIjoiIn0=
+vless://1c731995-761b-41b3-96d1-5ef5734ad909@125.228.236.138:443?type=ws&security=tls&sni=et.seaspirit.dpdns.org#%E3%80%90ChromeGo%E3%80%9114-TW
+vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJExNS1ISyIsImFkZCI6IjEwMy4xODEuMTY0LjE0NSIsInBvcnQiOiI1MTU1NiIsImlkIjoiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsInRscyI6IiIsInNuaSI6IiIsImhvc3QiOiIiLCJwYXRoIjoiIn0=
+vless://b6cdec79-cf23-4c1c-a7a7-a9696a3b4467@104.19.229.21:2083?type=xhttp&security=tls&sni=iranazad.golabzahra.ir.#%E3%80%90ChromeGo%E3%80%9116-CA
