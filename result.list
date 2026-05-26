@@ -1,14 +1,27 @@
 # ChromeGo Node List
-# Updated: 2026-05-26 05:03:53
-# Total: 9
+# Updated: 2026-05-27 05:04:57
+# Total: 22
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-tuic://36106e0f-4d9a-470b-a3fd-535f3b7a1e92:dongtaiwang.com@5.178.101.117:30006?congestion_controller=bbr&alpn=h3&sni=www.microsoft.com&udp_relay_mode=native#%E3%80%90ChromeGo%E3%80%911-DE
-hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-tw-002.fastervpn.world:443?sni=vpn-tw-002.fastervpn.world#%E3%80%90ChromeGo%E3%80%912-TW
-vless://ce069292-c8bf-40dd-a6b1-87818a1e64e9@da.mfa.gov.ua:443?type=ws&security=tls&sni=1-aym.pages.dev#%E3%80%90ChromeGo%E3%80%913-CA
-vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJE0LVVTIiwiYWRkIjoiODIuMTk4LjI0Ni4yNTAiLCJwb3J0IjoiMTgwIiwiaWQiOiJkMTNmYzJmNS0zZTA1LTQ3OTUtODFlYi00NDE0M2EwOWU1NTIiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwidGxzIjoiIiwic25pIjoiIiwiaG9zdCI6IiIsInBhdGgiOiIifQ==
-vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJE1LVVTIiwiYWRkIjoiODIuMTk4LjI0Ni4zNyIsInBvcnQiOiIxODAiLCJpZCI6ImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJ0bHMiOiIiLCJzbmkiOiIiLCJob3N0IjoiIiwicGF0aCI6IiJ9
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ=@r3mrcg007134n4g.cybervena.com:50099#%E3%80%90ChromeGo%E3%80%916-TW
-vless://fae3277c-0541-4ae9-bbbb-8247453ea652@194.226.169.36:443?type=tcp&security=reality&pbk=i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk&sid=b8aa&sni=yahoo.com#%E3%80%90ChromeGo%E3%80%917-FR
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ=@r3mrcg0011499tl.cybervena.com:50099#%E3%80%90ChromeGo%E3%80%918-TW
-vless://61bf6a18-727e-4492-ab5f-01dea4aa2df9@216.57.108.24:443?type=tcp&security=reality&pbk=6NCa8hdmqu3ZpYSQkODtsExGL1M0wR0GI4XZbb3Kdxo&sid=ce1b&sni=yahoo.com#%E3%80%90ChromeGo%E3%80%919-DE
+hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-tw-002.fastervpn.world:443?sni=vpn-tw-002.fastervpn.world#%E3%80%90ChromeGo%E3%80%911-XX
+tuic://36106e0f-4d9a-470b-a3fd-535f3b7a1e92:dongtaiwang.com@5.178.101.117:30006?congestion_controller=bbr&alpn=h3&sni=www.microsoft.com&udp_relay_mode=native#%E3%80%90ChromeGo%E3%80%912-XX
+hysteria2://aecd8c25-fd16-42a3-aefb-89c89557828f@tw11.769970.xyz:8080?sni=tw11.769970.xyz#%E3%80%90ChromeGo%E3%80%913-TW
+hysteria2://aecd8c25-fd16-42a3-aefb-89c89557828f@5gzdx.769970.xyz:8080?sni=5gzdx.769970.xyz#%E3%80%90ChromeGo%E3%80%914-TW
+hysteria2://aecd8c25-fd16-42a3-aefb-89c89557828f@tw40.453521.xyz:8080?sni=tw40.453521.xyz#%E3%80%90ChromeGo%E3%80%915-TW
+hysteria2://15893455-4d21-4338-a273-01aed1d77fa2@hyfnjp03.769970.xyz:8080?sni=hyfnjp03.769970.xyz#%E3%80%90ChromeGo%E3%80%916-JP
+hysteria2://f6836112-e9f3-4803-a366-5606ac214324@jp06.459292.xyz:8080?sni=jp06.459292.xyz#%E3%80%90ChromeGo%E3%80%917-JP
+hysteria2://c90cedc3-8d7f-4c7d-8bd7-d011d694aef3@1jp001.459292.xyz:8080?sni=1jp001.459292.xyz#%E3%80%90ChromeGo%E3%80%918-SG
+hysteria2://aecd8c25-fd16-42a3-aefb-89c89557828f@sg12.769970.xyz:8080?sni=sg12.769970.xyz#%E3%80%90ChromeGo%E3%80%919-SG
+hysteria2://505cb813-5647-4898-918c-cde760d515a8@hkt05.769970.xyz:8080?sni=hkt05.769970.xyz#%E3%80%90ChromeGo%E3%80%9110-SG
+hysteria2://15893455-4d21-4338-a273-01aed1d77fa2@sg04.459292.xyz:8080?sni=sg04.459292.xyz#%E3%80%90ChromeGo%E3%80%9111-XX
+hysteria2://505cb813-5647-4898-918c-cde760d515a8@sg03.459292.xyz:8080?sni=sg03.459292.xyz#%E3%80%90ChromeGo%E3%80%9112-SG
+hysteria2://3f2d3497-6843-46f1-aa34-5469dc953259@sg21.453521.xyz:8080?sni=sg21.453521.xyz#%E3%80%90ChromeGo%E3%80%9113-SG
+hysteria2://522c2107-f297-4420-bd56-ec82b175aa2d@sg05.453521.xyz:8080?sni=sg05.453521.xyz#%E3%80%90ChromeGo%E3%80%9114-XX
+vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJExNS1ISyIsImFkZCI6IjEwMy4xODEuMTY0LjE0NSIsInBvcnQiOiI1NDAyMiIsImlkIjoiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsInRscyI6IiIsInNuaSI6IiIsImhvc3QiOiIiLCJwYXRoIjoiIn0=
+vless://73bcd72f-9545-4cb8-8daf-7d004501880d@83.229.126.127:32237?type=ws&security=tls&sni=dcsrzh.ccwu.cc#%E3%80%90ChromeGo%E3%80%9116-HK
+vless://838e036b-f229-480b-b0ef-86b1dc711add@193.233.202.1:443?type=tcp&security=reality&pbk=RCp37oAO4E30SKBraaFaeUXeqvLGS7yH40VHl5a_6RE&sid=87ab&sni=yahoo.com#%E3%80%90ChromeGo%E3%80%9117-MD
+vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJExOC1VUyIsImFkZCI6IjgyLjE5OC4yNDYuMzciLCJwb3J0IjoiMTgwIiwiaWQiOiJkMTNmYzJmNS0zZTA1LTQ3OTUtODFlYi00NDE0M2EwOWU1NTIiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwidGxzIjoiIiwic25pIjoiIiwiaG9zdCI6IiIsInBhdGgiOiIifQ==
+vless://301a4309-0f4d-42bf-a057-7d60c7a73259@144.31.30.131:8443?type=tcp&security=reality&pbk=-5-QemzFc7ddcsXFtVEn1ciZmhkdxjnBPmhnqYPJEzM&sid=18730e64df45&sni=eh.vk.com#%E3%80%90ChromeGo%E3%80%9119-NL
+vless://a6f1755f-0140-4bea-8727-0db1bed7c4df@104.25.242.61:443?type=ws&security=tls&sni=juzi.qea.ccwu.cc#%E3%80%90ChromeGo%E3%80%9120-CA
+vless://aaaaaabb-4ddd-4eee-9fff-ffffffffffff@188.114.96.4:443?type=ws&security=tls&sni=JoinProxyVPN11.afrcloud4.c01.kr#%E3%80%90ChromeGo%E3%80%9121-CA
+vless://ae0dd58e-e222-40bf-84ae-365a97532737@220.128.110.108:43?type=ws&security=tls&sni=pagescm.freen6.cc.cd#%E3%80%90ChromeGo%E3%80%9122-TW
