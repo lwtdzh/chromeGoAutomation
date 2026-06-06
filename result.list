@@ -1,12 +1,8 @@
 # ChromeGo Node List
-# Updated: 2026-06-06 05:02:01
-# Total: 7
+# Updated: 2026-06-07 05:05:19
+# Total: 3
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-hysteria2://github.com/Alvin9999-newpac/fanqiang@62.210.26.173:64772?sni=bing.com#%E3%80%90ChromeGo%E3%80%911-FR
-hysteria2://github.com/Alvin9999-newpac/fanqiang@62.210.29.98:64772?sni=bing.com#%E3%80%90ChromeGo%E3%80%912-FR
-hysteria2://github.com/Alvin9999-newpac/fanqiang@62.210.124.132:64772?sni=bing.com#%E3%80%90ChromeGo%E3%80%913-FR
-hysteria2://6yhPOr3f9o@47.242.216.193:30236?sni=go.microsoft.com#%E3%80%90ChromeGo%E3%80%914-HK
-hysteria2://e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2@185.227.108.195:11000?sni=de-node.farnet.top#%E3%80%90ChromeGo%E3%80%915-DE
-vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJE2LVVTIiwiYWRkIjoiODIuMTk4LjI0Ni4yNTAiLCJwb3J0IjoiMTgwIiwiaWQiOiJkMTNmYzJmNS0zZTA1LTQ3OTUtODFlYi00NDE0M2EwOWU1NTIiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwidGxzIjoiIiwic25pIjoiIiwiaG9zdCI6IiIsInBhdGgiOiIifQ==
-vless://3927ac5a-c32c-42cb-be1b-f1ece562ad84@vps-rcv-hkg.maze-maker.com:48864?type=xhttp&security=reality&pbk=ZNjPwvsNl7HSDXA2WEXnWEFjHggKhjVq8-fXcCxa-0I&sid=aa&sni=www.sony.com#%E3%80%90ChromeGo%E3%80%917-HK
+hysteria2://github.com/Alvin9999-newpac/fanqiang@62.210.124.132:64772?sni=bing.com#%E3%80%90ChromeGo%E3%80%911-FR
+vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJEyLVVTIiwiYWRkIjoiODIuMTk4LjI0Ni4yNTAiLCJwb3J0IjoiMTgwIiwiaWQiOiJkMTNmYzJmNS0zZTA1LTQ3OTUtODFlYi00NDE0M2EwOWU1NTIiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwidGxzIjoiIiwic25pIjoiIiwiaG9zdCI6IiIsInBhdGgiOiIifQ==
+vless://3927ac5a-c32c-42cb-be1b-f1ece562ad84@vps-rcv-hkg.maze-maker.com:48864?type=xhttp&security=reality&pbk=ZNjPwvsNl7HSDXA2WEXnWEFjHggKhjVq8-fXcCxa-0I&sid=aa&sni=www.sony.com#%E3%80%90ChromeGo%E3%80%913-HK
