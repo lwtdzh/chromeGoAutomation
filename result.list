@@ -1,6 +1,8 @@
 # ChromeGo Node List
-# Updated: 2026-06-17 05:01:51
-# Total: 1
+# Updated: 2026-06-18 05:02:49
+# Total: 3
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-hysteria2://github.com/Alvin9999-newpac/fanqiang@62.210.124.132:64772?sni=bing.com#%E3%80%90ChromeGo%E3%80%911-FR
+hysteria2://github.com/Alvin9999-newpac/fanqiang@62.210.124.132:64772?sni=bing.com#%E3%80%90ChromeGo%E3%80%911-XX
+vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJEyLVhYIiwiYWRkIjoiMjMuMTQxLjIwNC4xMzIiLCJwb3J0IjoiMjk2MzMiLCJpZCI6IjA2ODVhMGJmLTI0MTMtNDVkMi1kYzAwLWMwMjgxMzg3YzI0NyIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJ0bHMiOiIiLCJzbmkiOiIiLCJob3N0IjoiIiwicGF0aCI6IiJ9
+vless://7192e5d7-4a7c-70d6-7238-10c587035467@cdn-profi.plusmusical2.ir:80?type=tcp&security=reality&pbk=1qXKdju4-bcHyuLpxvBIvd3sfaDOQP_cby4oHN1vsVk&sid=78f1c17fd58cbb8f&sni=yahoo.com#%E3%80%90ChromeGo%E3%80%913-XX
