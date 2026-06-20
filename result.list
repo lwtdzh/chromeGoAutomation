@@ -1,8 +1,10 @@
 # ChromeGo Node List
-# Updated: 2026-06-20 05:02:53
-# Total: 3
+# Updated: 2026-06-21 05:03:43
+# Total: 5
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-hysteria2://github.com/Alvin9999-newpac/fanqiang@hy2.313186.xyz:18066?sni=hy2.313186.xyz#%E3%80%90ChromeGo%E3%80%911-XX
-hysteria2://github.com/Alvin9999-newpac/fanqiang@62.210.124.132:64772?sni=bing.com#%E3%80%90ChromeGo%E3%80%912-XX
-hysteria2://MySecurePassword123@wuhantravel.duckdns.org:8443?sni=wuhantravel.duckdns.org#%E3%80%90ChromeGo%E3%80%913-XX
+hysteria2://github.com/Alvin9999-newpac/fanqiang@62.210.124.132:64772?sni=bing.com#%E3%80%90ChromeGo%E3%80%911-XX
+hysteria2://github.com/Alvin9999-newpac/fanqiang@hy2.313186.xyz:18066?sni=hy2.313186.xyz#%E3%80%90ChromeGo%E3%80%912-XX
+vless://437c9e5b-e0c5-47b9-930a-12824ffc53ed@134.255.252.76:9999?type=tcp&security=reality&pbk=_kcz60zlz7bBTIXtK11MgHIrnVBF9sTJnU2MiLCwDF8&sid=80335f00af&sni=varzesh3.com#%E3%80%90ChromeGo%E3%80%913-XX
+vless://8ca5cbd3-ec16-4728-bedc-2bc0d82f0922@lv.faygo.bot:443?type=tcp&security=reality&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2&sni=enterprisekitten.com#%E3%80%90ChromeGo%E3%80%914-XX
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4YmFhNGVhZDIyZGIxZDdlOGZlYTA2M2I2YWVmY2M3Mw==@77.42.33.181:1085#%E3%80%90ChromeGo%E3%80%915-XX
