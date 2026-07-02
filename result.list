@@ -1,6 +1,10 @@
 # ChromeGo Node List
-# Updated: 2026-07-02 12:00:01
-# Total: 1
+# Updated: 2026-07-03 05:01:58
+# Total: 5
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-hysteria2://dongtaiwang.com@www.838491.xyz:13377?sni=www.838491.xyz#%E3%80%90ChromeGo%E3%80%911-FR
+hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@47.129.3.178:443?sni=https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#%E3%80%90ChromeGo%E3%80%911-SG
+hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@54.179.153.191:443?sni=https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#%E3%80%90ChromeGo%E3%80%912-SG
+hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@54.255.238.222:443?sni=https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#%E3%80%90ChromeGo%E3%80%913-SG
+hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@13.231.108.76:443?sni=https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#%E3%80%90ChromeGo%E3%80%914-JP
+vless://3d5faf47-a299-4e0b-a2dc-85d5ac2ce885@45.139.25.145:443?type=tcp&security=reality&pbk=LGlyI_h141pa9csowTpbCLh7CWJNDahp7iHZTLu-JSc&sid=8306088529218116&sni=fl-mirror2-node.ok-sbrf.ru#%E3%80%90ChromeGo%E3%80%915-RU
