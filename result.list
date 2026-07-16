@@ -1,7 +1,10 @@
 # ChromeGo Node List
-# Updated: 2026-07-16 05:04:12
-# Total: 2
+# Updated: 2026-07-17 05:02:07
+# Total: 5
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-vless://218fd696-e3a2-4c33-b397-a5f13a82969e@77.110.113.188:443?type=raw&security=reality&pbk=4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw&sid=1559b440&sni=www.samsung.com#%E3%80%90ChromeGo%E3%80%911-RU
-vless://a5a82872-616b-49f6-a40a-6a54feeb5dd0@151.245.106.49:2053?type=tcp&security=reality&pbk=9HIcma6Y5a0yddTqa3_zNUyItI3J-g99GdT0u0Moqzw&sid=87478274a30fcaea&sni=www.cloudflare.com#%E3%80%90ChromeGo%E3%80%912-KR
+hysteria2://8bc63720-5ec8-45b5-b6a6-9a21ffb490e8@fl02.auragg.org:8443?sni=fl02.auragg.org#%E3%80%90ChromeGo%E3%80%911-FI
+tuic://9adb384a-0f16-4501-a8f3-b6b2556fce87:dongtaiwang.com@62.210.24.143:33888?congestion_controller=cubic&sni=bing.com&udp_relay_mode=native#%E3%80%90ChromeGo%E3%80%912-FR
+hysteria2://8bc63720-5ec8-45b5-b6a6-9a21ffb490e8@pl02.auragg.org:443?sni=pl02.auragg.org#%E3%80%90ChromeGo%E3%80%913-PL
+vless://218fd696-e3a2-4c33-b397-a5f13a82969e@77.110.113.188:443?type=tcp&security=reality&pbk=4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw&sid=1559b440&sni=www.samsung.com#%E3%80%90ChromeGo%E3%80%914-RU
+vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJE1LU5MIiwiYWRkIjoiYzg3czUucG9ydGFibGVzdWJtYXJpbmVzLmNvbSIsInBvcnQiOiIxODMzOSIsImlkIjoiM2NkOTA3N2QtNzZmNy00MTA0LWJkODItZWI2OTE2Yjg5ZDQzIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsInRscyI6IiIsInNuaSI6IiIsImhvc3QiOiIiLCJwYXRoIjoiIn0=
