@@ -1,8 +1,5 @@
 # ChromeGo Node List
-# Updated: 2026-07-19 05:02:27
-# Total: 3
+# Updated: 2026-07-20 05:02:08
+# Total: 0
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-hysteria2://Apt1923_N9x234gn_Nal5Nx3j_s@81.27.102.215:8443?sni=grape-power-pl.ddnsguru.com#%E3%80%90ChromeGo%E3%80%911-PL
-hysteria2://2n8QPNzHhWI0bDnv@57.181.33.93:64900?sni=bing.com#%E3%80%90ChromeGo%E3%80%912-JP
-vless://218fd696-e3a2-4c33-b397-a5f13a82969e@77.110.113.188:443?type=tcp&security=reality&pbk=4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw&sid=1559b440&sni=www.samsung.com#%E3%80%90ChromeGo%E3%80%913-RU
