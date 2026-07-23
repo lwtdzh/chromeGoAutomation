@@ -1,6 +1,10 @@
 # ChromeGo Node List
-# Updated: 2026-07-23 05:04:23
-# Total: 1
+# Updated: 2026-07-24 05:04:12
+# Total: 5
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-hysteria2://oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1@45.154.206.72:8443?sni=russiapower.accesscam.org#%E3%80%90ChromeGo%E3%80%911-XX
+vless://6f98a077-004e-4b86-8b78-8d09308d3868@185.147.27.155:443?type=xhttp&security=reality&pbk=XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs&sid=992f3294e2336744&sni=stats.vk-portal.net#%E3%80%90ChromeGo%E3%80%911-XX
+vless://6f98a077-004e-4b86-8b78-8d09308d3868@pl.fasti.win:443?type=xhttp&security=reality&pbk=XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs&sid=b09f78d4d0750922&sni=gratka.pl#%E3%80%90ChromeGo%E3%80%912-XX
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.57.117.158:22224?type=tcp#%E3%80%90ChromeGo%E3%80%913-XX
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.198.252.91:22223?type=tcp#%E3%80%90ChromeGo%E3%80%914-XX
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.57.117.158:22222?type=tcp#%E3%80%90ChromeGo%E3%80%915-XX
