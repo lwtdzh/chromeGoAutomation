@@ -1,10 +1,12 @@
 # ChromeGo Node List
-# Updated: 2026-07-24 05:04:12
-# Total: 5
+# Updated: 2026-07-25 05:04:06
+# Total: 7
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-vless://6f98a077-004e-4b86-8b78-8d09308d3868@185.147.27.155:443?type=xhttp&security=reality&pbk=XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs&sid=992f3294e2336744&sni=stats.vk-portal.net#%E3%80%90ChromeGo%E3%80%911-XX
-vless://6f98a077-004e-4b86-8b78-8d09308d3868@pl.fasti.win:443?type=xhttp&security=reality&pbk=XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs&sid=b09f78d4d0750922&sni=gratka.pl#%E3%80%90ChromeGo%E3%80%912-XX
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.57.117.158:22224?type=tcp#%E3%80%90ChromeGo%E3%80%913-XX
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.198.252.91:22223?type=tcp#%E3%80%90ChromeGo%E3%80%914-XX
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.57.117.158:22222?type=tcp#%E3%80%90ChromeGo%E3%80%915-XX
+hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-us-002.fastervpn.world:443?sni=vpn-us-002.fastervpn.world#%E3%80%90ChromeGo%E3%80%911-XX
+hysteria2://qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2@fr2.h2corp.org:443?sni=fr2.h2corp.org#%E3%80%90ChromeGo%E3%80%912-XX
+hysteria2://dongtaiwang.com@hy2.561891.xyz:44356?sni=hy2.561891.xyz#%E3%80%90ChromeGo%E3%80%913-XX
+tuic://3ebac90b-6977-47c0-bef5-b2e37554432c:3ebac90b-6977-47c0-bef5-b2e37554432c@89.144.35.232:17306?congestion_controller=bbr&sni=www.microsoft.com&udp_relay_mode=native#%E3%80%90ChromeGo%E3%80%914-XX
+tuic://9adb384a-0f16-4501-a8f3-b6b2556fce87:dongtaiwang.com@163.172.118.224:33888?congestion_controller=bbr&sni=bing.com&udp_relay_mode=native#%E3%80%90ChromeGo%E3%80%915-XX
+vless://28926c34-865c-447e-8d42-a17240af743b@cdn-cloudflare91.korvexe.ir:8880?type=ws#%E3%80%90ChromeGo%E3%80%916-XX
+vless://c97b2158-64c9-1f55-8167-72970d347288@157.22.19.5:443?type=xhttp&security=reality&pbk=wcOBPSgoOKptWa9ZHpFpmbrPfLqobBNpCgLH88Ptjhk&sni=download.nvidia.com#%E3%80%90ChromeGo%E3%80%917-XX
