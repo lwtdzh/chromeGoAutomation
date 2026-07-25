@@ -1,12 +1,13 @@
 # ChromeGo Node List
-# Updated: 2026-07-25 05:04:06
-# Total: 7
+# Updated: 2026-07-26 05:05:41
+# Total: 8
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-us-002.fastervpn.world:443?sni=vpn-us-002.fastervpn.world#%E3%80%90ChromeGo%E3%80%911-XX
-hysteria2://qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2@fr2.h2corp.org:443?sni=fr2.h2corp.org#%E3%80%90ChromeGo%E3%80%912-XX
-hysteria2://dongtaiwang.com@hy2.561891.xyz:44356?sni=hy2.561891.xyz#%E3%80%90ChromeGo%E3%80%913-XX
-tuic://3ebac90b-6977-47c0-bef5-b2e37554432c:3ebac90b-6977-47c0-bef5-b2e37554432c@89.144.35.232:17306?congestion_controller=bbr&sni=www.microsoft.com&udp_relay_mode=native#%E3%80%90ChromeGo%E3%80%914-XX
-tuic://9adb384a-0f16-4501-a8f3-b6b2556fce87:dongtaiwang.com@163.172.118.224:33888?congestion_controller=bbr&sni=bing.com&udp_relay_mode=native#%E3%80%90ChromeGo%E3%80%915-XX
-vless://28926c34-865c-447e-8d42-a17240af743b@cdn-cloudflare91.korvexe.ir:8880?type=ws#%E3%80%90ChromeGo%E3%80%916-XX
-vless://c97b2158-64c9-1f55-8167-72970d347288@157.22.19.5:443?type=xhttp&security=reality&pbk=wcOBPSgoOKptWa9ZHpFpmbrPfLqobBNpCgLH88Ptjhk&sni=download.nvidia.com#%E3%80%90ChromeGo%E3%80%917-XX
+hysteria2://68b4b16e-2759-47a4-8a69-33118edf5ce6@5.180.97.78:443?sni=nederland.gamestocke.ru#%E3%80%90ChromeGo%E3%80%911-XX
+hysteria2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@76.164.202.213:8443?sni=mercedes-grape.yyuyy.com#%E3%80%90ChromeGo%E3%80%912-XX
+hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@54.95.225.70:443?sni=https%3A%2F%2Ft.me%2F%40oneclickvpnkeys#%E3%80%90ChromeGo%E3%80%913-XX
+hysteria2://Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0@93.114.194.117:8443?sni=grape-zet-ro-turbo.bumbleshrimp.com#%E3%80%90ChromeGo%E3%80%914-XX
+hysteria2://s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z@205.237.109.212:8443?sni=grape-turbo-fr.roxa.org#%E3%80%90ChromeGo%E3%80%915-XX
+hysteria2://uj7XGZGUqRlmdpk6rysyZMN333RWsxTFj0hBIMaFV-NUCd5r@ro.h2corp.org:443?sni=ro.h2corp.org#%E3%80%90ChromeGo%E3%80%916-XX
+vless://219f9fec-8983-4f6f-af8c-31bd0c6dbf19@45.155.52.231:443?type=tcp&security=reality&pbk=6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ&sid=0b&sni=ru2.skydrgn-online.online#%E3%80%90ChromeGo%E3%80%917-XX
+vless://5eecb34f-c905-4c77-b7fb-d830b451cd11@141.133.172.222:20342?type=tcp#%E3%80%90ChromeGo%E3%80%918-XX
