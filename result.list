@@ -1,7 +1,16 @@
 # ChromeGo Node List
-# Updated: 2026-07-29 05:03:21
-# Total: 2
+# Updated: 2026-07-30 05:05:55
+# Total: 11
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-ca-002.fastervpn.world:443?sni=vpn-ca-002.fastervpn.world#%E3%80%90ChromeGo%E3%80%911-XX
-vless://219f9fec-8983-4f6f-af8c-31bd0c6dbf19@45.155.52.231:443?type=tcp&security=reality&pbk=6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ&sid=0b&sni=ru2.skydrgn-online.online#%E3%80%90ChromeGo%E3%80%912-XX
+hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-fr-002.fastervpn.world:443?sni=vpn-fr-002.fastervpn.world#%E3%80%90ChromeGo%E3%80%911-XX
+hysteria2://e04a51d1-0450-4919-b924-bd08501934bf@80.66.78.105:443?sni=80.66.78.105.nip.io#%E3%80%90ChromeGo%E3%80%912-XX
+hysteria2://Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo@144.31.107.101:25447?sni=devideo.h2corp.org#%E3%80%90ChromeGo%E3%80%913-XX
+hysteria2://67a1454f-5a95-4e30-9723-1ffcbe7e97f9@wopa7.api3-max.ru:443?sni=wopa7.api3-max.ru#%E3%80%90ChromeGo%E3%80%914-XX
+hysteria2://67a1454f-5a95-4e30-9723-1ffcbe7e97f9@taga2.api3-max.ru:443?sni=taga2.api3-max.ru#%E3%80%90ChromeGo%E3%80%915-XX
+hysteria2://67a1454f-5a95-4e30-9723-1ffcbe7e97f9@taga9.api3-max.ru:443?sni=taga9.api3-max.ru#%E3%80%90ChromeGo%E3%80%916-XX
+vless://39c42b0a-b823-4c93-bb99-74b4183e518d@api.getsavesafe.net:443?type=xhttp&security=reality&pbk=XyVDRn9DwbR6_bZPiGGz0jgCONpfH5LVbDaUejtiuTA&sid=16f5b3bddf7f68ae&sni=api.getsavesafe.net#%E3%80%90ChromeGo%E3%80%917-XX
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@193.29.139.168:8080#%E3%80%90ChromeGo%E3%80%918-XX
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@193.123.62.167:62145?type=tcp#%E3%80%90ChromeGo%E3%80%919-XX
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZVEV5WkRJME9HUXdNMlptWmpjNFpUZzFaVEJpWVRObFpUWmtaakl4T0RNPQ==@158.101.208.107:45819#%E3%80%90ChromeGo%E3%80%9110-XX
+vless://219f9fec-8983-4f6f-af8c-31bd0c6dbf19@45.155.52.231:443?type=tcp&security=reality&pbk=6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ&sid=0b&sni=ru2.skydrgn-online.online#%E3%80%90ChromeGo%E3%80%9111-XX
