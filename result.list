@@ -1,8 +1,7 @@
 # ChromeGo Node List
-# Updated: 2026-08-04 05:04:11
-# Total: 3
+# Updated: 2026-08-05 05:03:58
+# Total: 2
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-hysteria2://76713d07-5a6b-49c2-abd8-bc450a2fa7fc@usa1.spectrumproxy.shop:443?sni=usa1.spectrumproxy.shop#%E3%80%90ChromeGo%E3%80%911-XX
-hysteria2://76713d07-5a6b-49c2-abd8-bc450a2fa7fc@138.124.68.188:443?sni=usa1.spectrumproxy.shop#%E3%80%90ChromeGo%E3%80%912-XX
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyODc4OTk4OC04ODdlLTRlNDEtODNjZC0yN2JiZmI3OTk5YWQ=@xunlinknode.csdjhajkshdjkas.com:40028#%E3%80%90ChromeGo%E3%80%913-XX
+hysteria2://LzMWgm6LaNWCm11bFTbynDPq2TqQj03t@5.255.102.165:443?sni=www.microsoft.com#%E3%80%90ChromeGo%E3%80%911-XX
+vless://cd5cf6e7-7ce5-42c9-9316-68210fa72a32@13.193.205.133:27407?type=tcp&security=reality&pbk=SajK6LzHBkkFlEXjIwseyqbpezgPiop5ZnSToou3G04&sid=e6ac18b63f23&sni=bgcpartners.com#%E3%80%90ChromeGo%E3%80%912-XX
