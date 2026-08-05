@@ -1,7 +1,8 @@
 # ChromeGo Node List
-# Updated: 2026-08-05 05:03:58
-# Total: 2
+# Updated: 2026-08-06 05:07:17
+# Total: 3
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-hysteria2://LzMWgm6LaNWCm11bFTbynDPq2TqQj03t@5.255.102.165:443?sni=www.microsoft.com#%E3%80%90ChromeGo%E3%80%911-XX
-vless://cd5cf6e7-7ce5-42c9-9316-68210fa72a32@13.193.205.133:27407?type=tcp&security=reality&pbk=SajK6LzHBkkFlEXjIwseyqbpezgPiop5ZnSToou3G04&sid=e6ac18b63f23&sni=bgcpartners.com#%E3%80%90ChromeGo%E3%80%912-XX
+hysteria2://9d3356a0-c07e-43cc-b30e-450bd50521b8@flkf3.mangshe.xyz:2056?sni=flkf3.mangshe.xyz#%E3%80%90ChromeGo%E3%80%911-XX
+hysteria2://71cada65-d23e-418c-88e4-a06188d14689@de-two.quiet-rogue.site:443?sni=de-two.quiet-rogue.site#%E3%80%90ChromeGo%E3%80%912-XX
+vless://96563f88-f743-4395-a3b2-27ec462ae45e@35.241.98.220:443?type=tcp&security=reality&pbk=bSK8gtmPMlw7gP415tmh6kQzzFiwzxBsT3Kuqql6cRo&sid=ec2c7091fe76336c&sni=www.cloudflare.com#%E3%80%90ChromeGo%E3%80%913-XX
