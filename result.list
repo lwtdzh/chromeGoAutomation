@@ -1,11 +1,6 @@
 # ChromeGo Node List
-# Updated: 2026-08-09 05:05:13
-# Total: 6
+# Updated: 2026-08-10 05:04:35
+# Total: 1
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-hysteria2://0c3bd8c8-53db-4126-a98f-d12d908d5301@jpa.nnpy.org:11000?sni=www.bing.com#%E3%80%90ChromeGo%E3%80%911-XX
-hysteria2://71cada65-d23e-418c-88e4-a06188d14689@144.31.166.91:443?sni=de-two.quiet-rogue.site#%E3%80%90ChromeGo%E3%80%912-XX
-hysteria2://71cada65-d23e-418c-88e4-a06188d14689@de-two.quiet-rogue.site:443?sni=de-two.quiet-rogue.site#%E3%80%90ChromeGo%E3%80%913-XX
-hysteria2://d1224950-ffab-4b9a-8696-431b40a6cfbd@bel-03.node.lumixnet.com:443?sni=bel-03.node.lumixnet.com#%E3%80%90ChromeGo%E3%80%914-XX
-hysteria2://FPSfGfmZs5rjz5dlqreuDK7B@37.120.189.107:62202?sni=de1.143259.xyz#%E3%80%90ChromeGo%E3%80%915-XX
-hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-us-003.fastervpn.world:443?sni=vpn-us-003.fastervpn.world#%E3%80%90ChromeGo%E3%80%916-XX
+hysteria2://7wzl2lj2fy956inb@3x.aweijll.cf:40001?sni=3x.aweijll.cf#%E3%80%90ChromeGo%E3%80%911-XX
