@@ -1,9 +1,5 @@
 # ChromeGo Node List
-# Updated: 2026-08-20 11:27:33
-# Total: 4
+# Updated: 2026-08-21 05:03:49
+# Total: 0
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-hysteria2://1427eb10-7529-4d38-a6a2-01b337868b37@sg2.xiaoliyu.cyou:1935?sni=sg2.xiaoliyu.cyou#%E3%80%90ChromeGo%E3%80%911-SG
-hysteria2://C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE@fast.wwwinternetvideo.click:443?sni=fast.wwwinternetvideo.click#%E3%80%90ChromeGo%E3%80%912-FI
-hysteria2://P6qkAwznuC076mbIR2cGPg==@43.156.90.144:34567?sni=bing.com#%E3%80%90ChromeGo%E3%80%913-SG
-hysteria2://3b8c82ed-fe66-472d-915e-034ccb57103f@kz.frkn.org:443#%E3%80%90ChromeGo%E3%80%914-KZ
