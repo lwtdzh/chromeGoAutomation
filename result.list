@@ -1,5 +1,10 @@
 # ChromeGo Node List
-# Updated: 2026-08-21 05:03:49
-# Total: 0
+# Updated: 2026-08-22 05:03:11
+# Total: 5
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
+hysteria2://github.com/Alvin9999-newpac/fanqiang@62.210.147.2:43115?sni=www.microsoft.com#%E3%80%90ChromeGo%E3%80%911-FR
+hysteria2://h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT@138.124.0.168:8080?sni=hopp-legend-se.roxa.org#%E3%80%90ChromeGo%E3%80%912-FI
+hysteria2://s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z@46.229.243.139:8443?sni=grape-turbo-fr.roxa.org#%E3%80%90ChromeGo%E3%80%913-NL
+hysteria2://h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT@138.124.0.168:8443?sni=hopp-legend-se.roxa.org#%E3%80%90ChromeGo%E3%80%914-FI
+hysteria2://l25nJa8z0D5pT6jl@16.79.28.237:26001?sni=id-ls-c-4.nebulacloud.win#%E3%80%90ChromeGo%E3%80%915-ID
