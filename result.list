@@ -1,10 +1,16 @@
 # ChromeGo Node List
-# Updated: 2026-08-22 05:03:11
-# Total: 5
+# Updated: 2026-08-23 05:02:51
+# Total: 11
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-hysteria2://github.com/Alvin9999-newpac/fanqiang@62.210.147.2:43115?sni=www.microsoft.com#%E3%80%90ChromeGo%E3%80%911-FR
-hysteria2://h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT@138.124.0.168:8080?sni=hopp-legend-se.roxa.org#%E3%80%90ChromeGo%E3%80%912-FI
-hysteria2://s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z@46.229.243.139:8443?sni=grape-turbo-fr.roxa.org#%E3%80%90ChromeGo%E3%80%913-NL
-hysteria2://h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT@138.124.0.168:8443?sni=hopp-legend-se.roxa.org#%E3%80%90ChromeGo%E3%80%914-FI
-hysteria2://l25nJa8z0D5pT6jl@16.79.28.237:26001?sni=id-ls-c-4.nebulacloud.win#%E3%80%90ChromeGo%E3%80%915-ID
+hysteria2://17aVvwmiSU@do.aigh.store:10929?sni=do.aigh.store#%E3%80%90ChromeGo%E3%80%911-US
+hysteria2://Foc_Mcxi45rM9v3ve_N92fdrK_10_Ssc5@185.39.31.117:8443?sni=grape-beer.yyuyy.com#%E3%80%90ChromeGo%E3%80%912-JP
+hysteria2://h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT@138.124.0.168:8080?sni=hopp-legend-se.roxa.org#%E3%80%90ChromeGo%E3%80%913-FI
+hysteria2://Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s@86.107.178.76:8443?sni=hopp-netherland-new.dynuddns.net#%E3%80%90ChromeGo%E3%80%914-NL
+hysteria2://c85bd762dc136495ddc02b30b0b7c5c5@107-172-212-12.liao.kdns.fr:50160?sni=107-172-212-12.liao.kdns.fr#%E3%80%90ChromeGo%E3%80%915-US
+hysteria2://l25nJa8z0D5pT6jl@16.79.28.237:26001?sni=id-ls-c-4.nebulacloud.win#%E3%80%90ChromeGo%E3%80%916-ID
+hysteria2://VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC@82.39.214.95:8080?sni=hopp-us.yyuyy.com#%E3%80%90ChromeGo%E3%80%917-US
+hysteria2://h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT@222.167.212.82:8443?sni=hopp-legend-se.roxa.org#%E3%80%90ChromeGo%E3%80%918-FI
+hysteria2://github.com/Alvin9999-newpac/fanqiang@62.210.147.2:43115?sni=www.microsoft.com#%E3%80%90ChromeGo%E3%80%919-FR
+hysteria2://Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0@85.204.107.171:8080?sni=hopp-romania-new.roxa.org#%E3%80%90ChromeGo%E3%80%9110-DZ
+hysteria2://dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s@194.180.188.120:8443?sni=keyhop-offshore.roxa.org#%E3%80%90ChromeGo%E3%80%9111-DE
