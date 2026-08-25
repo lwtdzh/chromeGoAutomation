@@ -1,15 +1,12 @@
 # ChromeGo Node List
-# Updated: 2026-08-25 05:03:10
-# Total: 10
+# Updated: 2026-08-26 05:02:39
+# Total: 7
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-hysteria2://h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT@138.124.0.168:8080?sni=hopp-legend-se.roxa.org#%E3%80%90ChromeGo%E3%80%911-FI
-hysteria2://sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX@faq.wwwinternetvideo.click:443?sni=cabinet.wwwinternetvideo.click#%E3%80%90ChromeGo%E3%80%912-US
-hysteria2://github.com/Alvin9999-newpac/fanqiang@62.210.147.2:43115?sni=www.microsoft.com#%E3%80%90ChromeGo%E3%80%913-FR
-ss://YWVzLTI1Ni1nY206QnV0dGVyZmx5MTIzQHF3ZTk1Mjc=@103.236.66.4:10001#%E3%80%90ChromeGo%E3%80%914-CN
-ss://YWVzLTI1Ni1nY206QnV0dGVyZmx5MTIzQHF3ZTk1Mjc=@103.236.66.4:40001#%E3%80%90ChromeGo%E3%80%915-CN
-ss://YWVzLTI1Ni1nY206QnV0dGVyZmx5MTIzQHF3ZTk1Mjc=@103.236.66.4:40002#%E3%80%90ChromeGo%E3%80%916-CN
-ss://YWVzLTI1Ni1nY206QnV0dGVyZmx5MTIzQHF3ZTk1Mjc=@103.236.66.4:50003#%E3%80%90ChromeGo%E3%80%917-CN
-ss://YWVzLTI1Ni1nY206QnV0dGVyZmx5MTIzQHF3ZTk1Mjc=@103.236.66.4:50001#%E3%80%90ChromeGo%E3%80%918-CN
-ss://YWVzLTI1Ni1nY206QnV0dGVyZmx5MTIzQHF3ZTk1Mjc=@36.33.35.105:30001#%E3%80%90ChromeGo%E3%80%919-CN
-vless://85cc845e-644c-4148-8288-f0c03c83c1ec@152.53.33.73:443?type=tcp&security=reality&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&sid=43dcff53849b81e6&sni=at.quattro-tech.ru#%E3%80%90ChromeGo%E3%80%9110-DE
+hysteria2://sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX@faq.wwwinternetvideo.click:443?sni=cabinet.wwwinternetvideo.click#%E3%80%90ChromeGo%E3%80%911-XX
+hysteria2://39b27e20-16f5-45a1-8139-7c9b7f51b6f8@ru.xiaoliyu.cyou:4433#%E3%80%90ChromeGo%E3%80%912-XX
+ss://YWVzLTI1Ni1nY206QnV0dGVyZmx5MTIzQHF3ZTk1Mjc=@103.236.66.4:10001#%E3%80%90ChromeGo%E3%80%913-XX
+ss://YWVzLTI1Ni1nY206QnV0dGVyZmx5MTIzQHF3ZTk1Mjc=@103.236.66.4:40001#%E3%80%90ChromeGo%E3%80%914-XX
+ss://YWVzLTI1Ni1nY206QnV0dGVyZmx5MTIzQHF3ZTk1Mjc=@103.236.66.4:40002#%E3%80%90ChromeGo%E3%80%915-XX
+ss://YWVzLTI1Ni1nY206QnV0dGVyZmx5MTIzQHF3ZTk1Mjc=@103.236.66.4:50003#%E3%80%90ChromeGo%E3%80%916-XX
+ss://YWVzLTI1Ni1nY206QnV0dGVyZmx5MTIzQHF3ZTk1Mjc=@103.236.66.4:50001#%E3%80%90ChromeGo%E3%80%917-XX
