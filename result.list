@@ -1,7 +1,12 @@
 # ChromeGo Node List
-# Updated: 2026-08-29 05:03:10
-# Total: 2
+# Updated: 2026-08-30 05:04:11
+# Total: 7
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-hysteria2://84a506ca5aca505696a454d828420b3f@140.238.213.114:50160?sni=www.bing.com#%E3%80%90ChromeGo%E3%80%911-CH
-hysteria2://BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=@fin14qr.wwwinternetvideo.click:443?sni=fin14qr.wwwinternetvideo.click#%E3%80%90ChromeGo%E3%80%912-FI
+hysteria2://1671a252e2a97dc2bda4e515475931da@132.226.226.189:50160?sni=www.bing.com#%E3%80%90ChromeGo%E3%80%911-KR
+hysteria2://60e2a548-96aa-4850-a279-1edab743c39b@md1.cnyvpn.com:443?sni=md1.cnyvpn.com#%E3%80%90ChromeGo%E3%80%912-MD
+hysteria2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@162.249.124.118:8080?sni=hopp-germany-new.ddnsguru.com#%E3%80%90ChromeGo%E3%80%913-DE
+hysteria2://Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0@85.204.107.181:8080?sni=hopp-romania-new.roxa.org#%E3%80%90ChromeGo%E3%80%914-DZ
+hysteria2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@162.249.124.118:8443?sni=hopp-germany-new.ddnsguru.com#%E3%80%90ChromeGo%E3%80%915-DE
+hysteria2://9cfc9458e48c028ec03ff86ebc71c744@150-230-252-217.liao.kdns.fr:50160?sni=150-230-252-217.liao.kdns.fr#%E3%80%90ChromeGo%E3%80%916-KR
+vless://b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb@162.35.231.73:443?type=xhttp&security=reality&pbk=BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8&sid=812609fa663c57fb&sni=net.savesafe.run#%E3%80%90ChromeGo%E3%80%917-DE
