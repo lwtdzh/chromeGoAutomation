@@ -1,28 +1,10 @@
 # ChromeGo Node List
-# Updated: 2026-08-31 05:03:54
-# Total: 23
+# Updated: 2026-09-01 05:02:58
+# Total: 5
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-hysteria2://BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=@fin14qr.wwwinternetvideo.click:443?sni=fin14qr.wwwinternetvideo.click#%E3%80%90ChromeGo%E3%80%911-FI
-hysteria2://Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0@85.204.107.178:8080?sni=hopp-romania-new.roxa.org#%E3%80%90ChromeGo%E3%80%912-DZ
-hysteria2://c3e44804-5149-4bfe-9a33-d5051af3c65e@192.227.229.51:28133?sni=www.apple.com#%E3%80%90ChromeGo%E3%80%913-US
-hysteria2://c4ed8ab1-4e2b-45e8-8ba9-d64a75b7f0f4@208.87.242.163:50000?sni=www.bing.com#%E3%80%90ChromeGo%E3%80%914-US
-hysteria2://19f72087-4591-4d72-930b-2697078ec2be@sg1.xiaoliyu.cyou:1933?sni=sg1.xiaoliyu.cyou#%E3%80%90ChromeGo%E3%80%915-SG
-hysteria2://1206bad5-dcc9-410e-9595-d9fe9ee54085@31.76.4.128:5002?sni=fi.aeternavpn.space#%E3%80%90ChromeGo%E3%80%916-CH
-vless://b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb@82.152.220.11:443?type=xhttp&security=reality&pbk=BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8&sid=812609fa663c57fb&sni=api-v2.savesafe.run#%E3%80%90ChromeGo%E3%80%917-GB
-vless://b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb@82.152.220.121:443?type=xhttp&security=reality&pbk=BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8&sid=812609fa663c57fb&sni=api-v2.savesafe.run#%E3%80%90ChromeGo%E3%80%918-GB
-vless://b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb@82.152.220.151:443?type=xhttp&security=reality&pbk=BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8&sid=812609fa663c57fb&sni=api-v2.savesafe.run#%E3%80%90ChromeGo%E3%80%919-GB
-vless://b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb@82.152.220.21:443?type=xhttp&security=reality&pbk=BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8&sid=812609fa663c57fb&sni=api-v2.savesafe.run#%E3%80%90ChromeGo%E3%80%9110-GB
-vless://b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb@82.152.220.31:443?type=xhttp&security=reality&pbk=BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8&sid=812609fa663c57fb&sni=api-v2.savesafe.run#%E3%80%90ChromeGo%E3%80%9111-GB
-vless://b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb@82.152.220.41:443?type=xhttp&security=reality&pbk=BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8&sid=812609fa663c57fb&sni=api-v2.savesafe.run#%E3%80%90ChromeGo%E3%80%9112-GB
-vless://b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb@82.152.220.51:443?type=xhttp&security=reality&pbk=BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8&sid=812609fa663c57fb&sni=api-v2.savesafe.run#%E3%80%90ChromeGo%E3%80%9113-GB
-vless://b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb@82.152.220.61:443?type=xhttp&security=reality&pbk=BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8&sid=812609fa663c57fb&sni=api-v2.savesafe.run#%E3%80%90ChromeGo%E3%80%9114-GB
-vless://b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb@82.152.220.81:443?type=xhttp&security=reality&pbk=BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8&sid=812609fa663c57fb&sni=api-v2.savesafe.run#%E3%80%90ChromeGo%E3%80%9115-GB
-vless://b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb@82.152.220.91:443?type=xhttp&security=reality&pbk=BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8&sid=812609fa663c57fb&sni=api-v2.savesafe.run#%E3%80%90ChromeGo%E3%80%9116-GB
-vless://b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb@82.152.220.101:443?type=xhttp&security=reality&pbk=BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8&sid=812609fa663c57fb&sni=api-v2.savesafe.run#%E3%80%90ChromeGo%E3%80%9117-GB
-vless://b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb@82.152.220.71:443?type=xhttp&security=reality&pbk=BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8&sid=812609fa663c57fb&sni=api-v2.savesafe.run#%E3%80%90ChromeGo%E3%80%9118-GB
-vless://b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb@82.152.220.161:443?type=xhttp&security=reality&pbk=BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8&sid=812609fa663c57fb&sni=api-v2.savesafe.run#%E3%80%90ChromeGo%E3%80%9119-GB
-vless://c538c9dd-2e3f-488f-a8ca-ac5b7c0773f3@38.75.216.54:38809?type=tcp&security=reality&pbk=9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc&sni=www.lovelive-anime.jp#%E3%80%90ChromeGo%E3%80%9120-US
-vless://1236329f-bc88-43a2-ae3b-7cf63ab1bf11@108.61.177.236:32263?type=tcp#%E3%80%90ChromeGo%E3%80%9121-FR
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@35.178.112.200:22223?type=tcp#%E3%80%90ChromeGo%E3%80%9122-GB
-vless://b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb@82.152.220.111:443?type=xhttp&security=reality&pbk=BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8&sid=812609fa663c57fb&sni=api-v2.savesafe.run#%E3%80%90ChromeGo%E3%80%9123-GB
+hysteria2://github.com/Alvin9999-newpac/fanqiang@62.210.7.139:60111?sni=bing.com#%E3%80%90ChromeGo%E3%80%911-XX
+hysteria2://hysteria2_fastlane_eoa3x0r8k:6GudDh3lTuhL0Ma2RlGP1MOcHTPASzK4@144.31.135.204:1935?sni=nl2.h.fastlanehosting.ru#%E3%80%90ChromeGo%E3%80%912-XX
+vless://ffaa4b21-9842-4206-8f4c-20588033c481@eg.linuxbase.ir:443?type=tcp&security=reality&pbk=ugtm31PMWRlIc6ECuwte3TQ8dvl5ySnrewLZYIAoV1Y&sid=f8c90594fb7adb6e&sni=amp-api-edge.apps.apple.com#%E3%80%90ChromeGo%E3%80%913-XX
+vmess://eyJ2IjoiMiIsInBzIjoi44CQQ2hyb21lR2/jgJE0LVhYIiwiYWRkIjoianAuNjgwNzI1MS54eXoiLCJwb3J0IjoiMzQyMjgiLCJpZCI6IjdhYTNhMDI0LWUzMzMtNGI2My05OWEyLTNkYjlkM2IyMDU0ZSIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsInRscyI6IiIsInNuaSI6IiIsImhvc3QiOiIiLCJwYXRoIjoiIn0=
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@143.47.176.112:62145?type=tcp#%E3%80%90ChromeGo%E3%80%915-XX
