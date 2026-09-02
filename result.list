@@ -1,10 +1,12 @@
 # ChromeGo Node List
-# Updated: 2026-09-02 05:04:00
-# Total: 5
+# Updated: 2026-09-03 05:03:25
+# Total: 7
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-hysteria2://19f72087-4591-4d72-930b-2697078ec2be@sg1.xiaoliyu.cyou:1933?sni=sg1.xiaoliyu.cyou#%E3%80%90ChromeGo%E3%80%911-SG
-hysteria2://d19b459e-fcc3-4f2a-8f2e-77e8701cd1d8@ush2.shazamri.xyz:443?sni=ush2.shazamri.xyz#%E3%80%90ChromeGo%E3%80%912-US
-hysteria2://aa6f8aaf-d7ff-46f8-a9a0-d143d7e71f71@kz03hy01.tcp-reset-club.net:443?sni=kz03hy01.tcp-reset-club.net#%E3%80%90ChromeGo%E3%80%913-KZ
-hysteria2://hysteria2_fastlane_qn9oi6zlt:tMwvjfEDLoeLqtsLBGu1tp871gx0Jtyt@2.27.28.106:1935?sni=de8.h.fastlanehosting.ru#%E3%80%90ChromeGo%E3%80%914-DE
-hysteria2://Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s@205.237.109.174:8443?sni=hopp-netherland-new.dynuddns.net#%E3%80%90ChromeGo%E3%80%915-NL
+hysteria2://h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT@138.124.0.168:8080?sni=hopp-legend-se.roxa.org#%E3%80%90ChromeGo%E3%80%911-FI
+hysteria2://184cdec28da5a09450803c8debcd2cc9@138.3.208.26:50160?sni=www.bing.com#%E3%80%90ChromeGo%E3%80%912-JP
+hysteria2://1a17fbd6-a54f-456c-8e71-5282893e2b69@31.76.106.61:443?sni=gos.ultimagamest.com#%E3%80%90ChromeGo%E3%80%913-DE
+hysteria2://s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z@46.229.243.152:8443?sni=grape-turbo-fr.roxa.org#%E3%80%90ChromeGo%E3%80%914-NL
+hysteria2://b504a1c7-1bfe-461f-9329-cbc653deb3d7@144.31.217.201:443?sni=144-31-217-201.sslip.io#%E3%80%90ChromeGo%E3%80%915-DE
+hysteria2://4d6d97a82ddf959252e2ada36c3c3053@138.2.8.249:50160?sni=www.bing.com#%E3%80%90ChromeGo%E3%80%916-JP
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@141.148.245.146:62145?type=tcp#%E3%80%90ChromeGo%E3%80%917-NL
