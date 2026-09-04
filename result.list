@@ -1,15 +1,7 @@
 # ChromeGo Node List
-# Updated: 2026-09-04 05:03:46
-# Total: 10
+# Updated: 2026-09-05 05:03:39
+# Total: 2
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-hysteria2://uowQGj5hGoMerPtQE2sZV-ETleLUgimbKf3q8TWfijQ@give.internet-card.sbs:34444?sni=wata.internet-card.sbs#%E3%80%90ChromeGo%E3%80%911-RU
-hysteria2://s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z@46.229.243.149:8443?sni=grape-turbo-fr.roxa.org#%E3%80%90ChromeGo%E3%80%912-NL
-hysteria2://4d6d97a82ddf959252e2ada36c3c3053@138.2.8.249:50160?sni=www.bing.com#%E3%80%90ChromeGo%E3%80%913-JP
-hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-au-002.fastervpn.world:443?sni=css.rbxcdn.com#%E3%80%90ChromeGo%E3%80%914-AU
-hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-in-001.fastervpn.world:443?sni=vpn-in-001.fastervpn.world#%E3%80%90ChromeGo%E3%80%915-IN
-hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-uk-001.fastervpn.world:443?sni=vpn-uk-001.fastervpn.world#%E3%80%90ChromeGo%E3%80%916-GB
-hysteria2://dffb4c3d-1e84-4938-8881-cad917e8efb2@de1.apexvpn.space:443?sni=de1.apexvpn.space#%E3%80%90ChromeGo%E3%80%917-XX
-hysteria2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@162.249.126.2:8443?sni=hopp-germany-new.ddnsguru.com#%E3%80%90ChromeGo%E3%80%918-DE
-hysteria2://5d0a6445-a30d-4522-bb1f-94f1d3ad63be@msjp.mangshe.xyz:20562?sni=www.microsoft.com#%E3%80%90ChromeGo%E3%80%919-JP
-vless://579ac5bd-a43d-49d4-b83e-a9e3ddd1f706@151.245.106.49:2053?type=tcp&security=reality&pbk=k9narlSK7fUqy94_p0rrqKl52W35QLNsp3W8xaGq_Go&sid=37b4f3ae8bf23763&sni=www.apple.com#%E3%80%90ChromeGo%E3%80%9110-KR
+hysteria2://EkF2Yw0Lc7@72.56.16.243:443?sni=72.56.16.243#%E3%80%90ChromeGo%E3%80%911-NL
+hysteria2://niEGIEcu9rRmRBoA3yYiKtFRv87BMRnFEpozCmNTHyY@give.internet-card.sbs:24444?sni=bel7bel.internet-card.sbs#%E3%80%90ChromeGo%E3%80%912-RU
