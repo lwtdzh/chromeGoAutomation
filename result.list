@@ -1,11 +1,10 @@
 # ChromeGo Node List
-# Updated: 2026-09-10 05:02:43
-# Total: 6
+# Updated: 2026-09-11 05:03:17
+# Total: 5
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
 hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@gta.internet-card.sbs:443?sni=gta.internet-card.sbs#%E3%80%90ChromeGo%E3%80%911-RU
-hysteria2://sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX@news.gazette.help:443?sni=news.gazette.help#%E3%80%90ChromeGo%E3%80%912-RU
-hysteria2://sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX@31.76.71.63:443?sni=cabinet.wwwinternetvideo.click#%E3%80%90ChromeGo%E3%80%913-RU
-vless://6429d27e-a7d4-4e04-ae57-e88243fbbfe3@130.12.102.125:443?type=tcp&security=reality&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&sni=localhost#%E3%80%90ChromeGo%E3%80%914-HK
-vless://6429d27e-a7d4-4e04-ae57-e88243fbbfe3@130.12.102.26:443?type=tcp&security=reality&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&sni=localhost#%E3%80%90ChromeGo%E3%80%915-HK
-vless://6429d27e-a7d4-4e04-ae57-e88243fbbfe3@freshjuniper.download:443?type=tcp&security=reality&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&sni=localhost#%E3%80%90ChromeGo%E3%80%916-HK
+hysteria2://Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s@205.237.109.176:8443?sni=hopp-netherland-new.dynuddns.net#%E3%80%90ChromeGo%E3%80%912-NL
+hysteria2://5beff945-adaa-492f-85c6-8aaf5df6cfa5@91.240.86.70:22443?sni=hy.quattro-tech.ru#%E3%80%90ChromeGo%E3%80%913-RU
+hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?sni=msk.frkn.org#%E3%80%90ChromeGo%E3%80%914-RU
+hysteria2://maintell@152.70.237.123:2053?sni=bing.com#%E3%80%90ChromeGo%E3%80%915-KR
