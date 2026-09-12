@@ -1,6 +1,12 @@
 # ChromeGo Node List
-# Updated: 2026-09-12 05:02:57
-# Total: 1
+# Updated: 2026-09-13 05:04:31
+# Total: 7
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@gta.internet-card.sbs:443?sni=gta.internet-card.sbs#%E3%80%90ChromeGo%E3%80%911-RU
+hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-uk-002.fastervpn.world:443?sni=vpn-uk-002.fastervpn.world#%E3%80%90ChromeGo%E3%80%911-GB
+hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@gta.internet-card.sbs:443?sni=gta.internet-card.sbs#%E3%80%90ChromeGo%E3%80%912-RU
+hysteria2://18bd49994f2eea74ff62798bd75fb7d1@107.175.219.48:443#%E3%80%90ChromeGo%E3%80%913-US
+hysteria2://3DMpEHI94Ic7izl0YBXU@38.207.163.44:8443#%E3%80%90ChromeGo%E3%80%914-US
+hysteria2://EkkoHY2_2024!@198.46.159.171:8443#%E3%80%90ChromeGo%E3%80%915-US
+vless://c423cc1b-f88e-421c-9a16-c480d84da20f@198.251.78.29:2053?type=tcp&security=reality&pbk=Uk5b-Wh_uxeCc7R8NS9iWE40xc0h9wWC04rSB9yhgAw&sid=b5d625695ec82c7e&sni=www.cloudflare.com#%E3%80%90ChromeGo%E3%80%916-US
+vless://ed91e79c-f6bf-4fba-8cc0-6d45acaec22b@aldebaran.yokkastars.com:40443?type=tcp&security=reality&pbk=dvx6zPztKbgHpYaW6J4OZQC74Uy0JS6HUVdDfbjG5V4&sid=7606&sni=deepl.com#%E3%80%90ChromeGo%E3%80%917-NO
