@@ -1,13 +1,8 @@
 # ChromeGo Node List
-# Updated: 2026-09-14 05:03:25
-# Total: 8
+# Updated: 2026-09-15 05:02:29
+# Total: 3
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-hysteria2://184cdec28da5a09450803c8debcd2cc9@138.3.208.26:50160?sni=www.bing.com#%E3%80%90ChromeGo%E3%80%911-JP
-hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@gta.internet-card.sbs:443?sni=gta.internet-card.sbs#%E3%80%90ChromeGo%E3%80%912-RU
-hysteria2://sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX@news.gazette.help:443?sni=news.gazette.help#%E3%80%90ChromeGo%E3%80%913-RU
-hysteria2://c2356e22-b026-4f12-8508-cf61f0b0c867@107.174.255.14:4356#%E3%80%90ChromeGo%E3%80%914-US
-hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=hy.quattro-tech.ru#%E3%80%90ChromeGo%E3%80%915-RU
-hysteria2://CompanyHy2_2026!@38.54.6.46:36712?sni=www.microsoft.com#%E3%80%90ChromeGo%E3%80%916-US
-tuic://6346ee2b-aefa-4a58-963a-bb851ed08f41:0b628b17@198.46.215.223:4444?congestion_controller=bbr&sni=proxy.bingtao.xyz&udp_relay_mode=native#%E3%80%90ChromeGo%E3%80%917-US
-vless://4350213a-b4e7-262a-0bd7-bd16957cf71a@170.168.97.8:443?type=xhttp&security=reality&pbk=jYD82Xg6TRu2lR0XINMWxKb8dNycDwF-H28ZrtiafUo&sni=cdn.steamstatic.com#%E3%80%90ChromeGo%E3%80%918-ES
+hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@gta.internet-card.sbs:443?sni=gta.internet-card.sbs#%E3%80%90ChromeGo%E3%80%911-RU
+hysteria2://CompanyHy2_2026!@38.54.6.46:36712?sni=www.microsoft.com#%E3%80%90ChromeGo%E3%80%912-US
+hysteria2://9b5ebb1c-5221-4381-850e-0b5eaac603e2@hyfnjp03.459292.xyz:8443?sni=localhost#%E3%80%90ChromeGo%E3%80%913-JP
