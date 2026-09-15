@@ -1,8 +1,10 @@
 # ChromeGo Node List
-# Updated: 2026-09-15 05:02:29
-# Total: 3
+# Updated: 2026-09-16 05:02:30
+# Total: 5
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@gta.internet-card.sbs:443?sni=gta.internet-card.sbs#%E3%80%90ChromeGo%E3%80%911-RU
-hysteria2://CompanyHy2_2026!@38.54.6.46:36712?sni=www.microsoft.com#%E3%80%90ChromeGo%E3%80%912-US
-hysteria2://9b5ebb1c-5221-4381-850e-0b5eaac603e2@hyfnjp03.459292.xyz:8443?sni=localhost#%E3%80%90ChromeGo%E3%80%913-JP
+hysteria2://1beb216e3f60aea9555dae60d219a5ca@152-69-231-175.liao.kdns.fr:50160?sni=152-69-231-175.liao.kdns.fr#%E3%80%90ChromeGo%E3%80%911-KR
+hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@gta.internet-card.sbs:443?sni=gta.internet-card.sbs#%E3%80%90ChromeGo%E3%80%912-RU
+hysteria2://HysTeria2026!Proxy@mz.hkychina.com:8443?sni=mz.hkychina.com#%E3%80%90ChromeGo%E3%80%913-HK
+ss://YWVzLTI1Ni1nY206ZmJjZWM3Njk1M2EyZDE3Mw==@166.88.130.218:7018#%E3%80%90ChromeGo%E3%80%914-CA
+vless://1e4668ca-6526-84ac-2a53-28bbc209da13@170.168.97.6:443?type=xhttp&security=reality&pbk=D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs&sni=download.nvidia.com#%E3%80%90ChromeGo%E3%80%915-ES
