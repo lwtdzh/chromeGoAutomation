@@ -1,9 +1,6 @@
 # ChromeGo Node List
-# Updated: 2026-09-20 05:02:11
-# Total: 4
+# Updated: 2026-09-21 05:02:02
+# Total: 1
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
 hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443#%E3%80%90ChromeGo%E3%80%911-RU
-vless://659ffdfa-47d2-47d7-af40-5afe0907eead@162.55.242.208:2053?type=tcp&security=reality&pbk=jeS6Zu-p1Gf6GtraIAbpgQoSeT26Xq3GqgqVxccbVhY&sid=4d14da19b19cfc8c&sni=www.cloudflare.com#%E3%80%90ChromeGo%E3%80%912-DE
-vless://4f865f35-cf47-4e7f-a7e6-8882511a1b36@34.87.229.148:443?type=tcp&security=reality&pbk=OgTkmAQdLjipA9oLloxbU5BAX3hPjzbvkEGHF4aZ8z4&sid=8a7d5e0248cdb1b1&sni=www.cloudflare.com#%E3%80%90ChromeGo%E3%80%913-AU
-vless://efbd22e5-1fd7-4c50-a41d-279915d89b66@106.75.137.66:20003?type=tcp&security=reality&pbk=MNuMD-QetOhWYDuVRaQj-mhcrQMVWyF3zm3DNpaE_E4&sid=43ebaa76bdeab867&sni=cache.video.iqiyi.com#%E3%80%90ChromeGo%E3%80%914-CN
