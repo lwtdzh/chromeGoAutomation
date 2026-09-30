@@ -1,14 +1,11 @@
 # ChromeGo Node List
-# Updated: 2026-09-30 05:02:50
-# Total: 9
+# Updated: 2026-10-01 05:02:40
+# Total: 6
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-hysteria2://github.com/Alvin9999-newpac/fanqiang@62.210.7.139:60111?sni=bing.com#%E3%80%90ChromeGo%E3%80%911-FR
-hysteria2://YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc@45.192.12.93:443?sni=admin.wwwinternetvideo.click#%E3%80%90ChromeGo%E3%80%912-PL
-hysteria2://YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc@admin.wwwinternetvideo.click:443?sni=admin.wwwinternetvideo.click#%E3%80%90ChromeGo%E3%80%913-PL
-hysteria2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@162.249.127.135:8443?sni=hop-germany-september.dynuddns.com#%E3%80%90ChromeGo%E3%80%914-CZ
-hysteria2://531d9e93-53be-4f05-a9c1-33490d4da2f3@108.181.8.123:52125?sni=www.bing.com#%E3%80%90ChromeGo%E3%80%915-US
-hysteria2://531d9e93-53be-4f05-a9c1-33490d4da2f3@45.88.43.89:52148?sni=www.bing.com#%E3%80%90ChromeGo%E3%80%916-JP
-hysteria2://s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z@77.74.123.101:8443?sni=grape-test-italy.dynuddns.net#%E3%80%90ChromeGo%E3%80%917-DE
-vless://900e2cca-4798-47f6-b972-5288a77c8093@143.246.41.6:25395?type=xhttp&security=reality&pbk=NPeupAuDrIhrFEXxPXUnsmuT0zSOkSQByegy5DPJQhU&sid=b4&sni=amd.com#%E3%80%90ChromeGo%E3%80%918-EE
-vless://306dcb21-d02d-49dd-8ec7-0005b972b47a@199.247.23.162:80?type=ws#%E3%80%90ChromeGo%E3%80%919-DE
+hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=hy.quattro-tech.ru#%E3%80%90ChromeGo%E3%80%911-RU
+hysteria2://HysTeria2026!Proxy@mz.hkychina.com:8443#%E3%80%90ChromeGo%E3%80%912-HK
+hysteria2://5d0a6445-a30d-4522-bb1f-94f1d3ad63be@els.mangshe.xyz:2060?sni=els.mangshe.xyz#%E3%80%90ChromeGo%E3%80%913-RU
+hysteria2://5d0a6445-a30d-4522-bb1f-94f1d3ad63be@mg.mangshe.xyz:2060?sni=mg.mangshe.xyz#%E3%80%90ChromeGo%E3%80%914-US
+hysteria2://github.com/Alvin9999-newpac/fanqiang@62.210.7.139:60111?sni=t.me#%E3%80%90ChromeGo%E3%80%915-FR
+hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-sg-001.fastervpn.world:443?sni=vpn-sg-001.fastervpn.world#%E3%80%90ChromeGo%E3%80%916-SG
