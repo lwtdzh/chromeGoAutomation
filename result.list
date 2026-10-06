@@ -1,10 +1,8 @@
 # ChromeGo Node List
-# Updated: 2026-10-06 05:02:47
-# Total: 5
+# Updated: 2026-10-07 05:03:54
+# Total: 3
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-tuic://8A9905B7-801B-41AF-BFC9-2034212770F6:8A9905B7-801B-41AF-BFC9-2034212770F6@tw3.dexlos.com:8080?congestion_controller=bbr&sni=tw3.dexlos.com&udp_relay_mode=native#%E3%80%90ChromeGo%E3%80%911-TW
-hysteria2://19f72087-4591-4d72-930b-2697078ec2be@hk2.xiaoliyu.cyou:4433?sni=hk2.xiaoliyu.cyou#%E3%80%90ChromeGo%E3%80%912-HK
-hysteria2://5d0a6445-a30d-4522-bb1f-94f1d3ad63be@yg.mangshe.xyz:2060?sni=yg.mangshe.xyz#%E3%80%90ChromeGo%E3%80%913-GB
-hysteria2://Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0@103.126.51.49:8443?sni=ocober-romania-new.yyuyy.com#%E3%80%90ChromeGo%E3%80%914-DE
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTY4ZTMyZi04MDE1LTRmMzctOTA4Mi03MGU4YjBiNTgwNDM=@13.212.109.205:8443#%E3%80%90ChromeGo%E3%80%915-SG
+hysteria2://d402d4c0b8354a90b70bb2566dce9a08@i.wareznet.ru:8443?sni=i.wareznet.ru#%E3%80%90ChromeGo%E3%80%911-FI
+hysteria2://19f72087-4591-4d72-930b-2697078ec2be@us3.xiaoliyu.cyou:18333#%E3%80%90ChromeGo%E3%80%912-AM
+hysteria2://github.com/Alvin9999-newpac/fanqiang@62.210.147.2:43115?sni=www.microsoft.com#%E3%80%90ChromeGo%E3%80%913-FR
