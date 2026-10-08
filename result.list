@@ -1,15 +1,12 @@
 # ChromeGo Node List
-# Updated: 2026-10-08 05:02:59
-# Total: 10
+# Updated: 2026-10-09 05:03:02
+# Total: 7
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-hysteria2://s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z@77.74.123.107:8443?sni=grape-test-italy.dynuddns.net#%E3%80%90ChromeGo%E3%80%911-DE
-tuic://8A9905B7-801B-41AF-BFC9-2034212770F6:8A9905B7-801B-41AF-BFC9-2034212770F6@tw3.dexlos.com:8080?congestion_controller=bbr&sni=tw3.dexlos.com&udp_relay_mode=native#%E3%80%90ChromeGo%E3%80%912-TW
-hysteria2://c-E0lamG8OnEj9M_uh3oJPmIXqYIVGctO-NHELF1TmNYs7Jl@cz.h2.cleanersaz.help:443?sni=cz.h2.cleanersaz.help#%E3%80%90ChromeGo%E3%80%913-CZ
-hysteria2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@162.249.126.39:8443?sni=hop-germany-september.dynuddns.com#%E3%80%90ChromeGo%E3%80%914-DE
-hysteria2://u63SxILNwtrQZ7Y1ZrFaZfsA@8.211.175.236:8443?sni=bing.com#%E3%80%90ChromeGo%E3%80%915-JP
-hysteria2://5d0a6445-a30d-4522-bb1f-94f1d3ad63be@rb.mangshe.xyz:2060?sni=127.0.0.1#%E3%80%90ChromeGo%E3%80%916-JP
-hysteria2://s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z@77.74.123.108:8443?sni=grape-test-italy.dynuddns.net#%E3%80%90ChromeGo%E3%80%917-DE
-hysteria2://5d0a6445-a30d-4522-bb1f-94f1d3ad63be@xby.mangshe.xyz:2060#%E3%80%90ChromeGo%E3%80%918-ES
-hysteria2://5d0a6445-a30d-4522-bb1f-94f1d3ad63be@yg.mangshe.xyz:2060#%E3%80%90ChromeGo%E3%80%919-GB
-hysteria2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@162.249.126.39:9443?sni=hop-germany-september.dynuddns.com#%E3%80%90ChromeGo%E3%80%9110-DE
+hysteria2://5d0a6445-a30d-4522-bb1f-94f1d3ad63be@rb.mangshe.xyz:2060?sni=127.0.0.1#%E3%80%90ChromeGo%E3%80%911-JP
+hysteria2://u63SxILNwtrQZ7Y1ZrFaZfsA@8.211.175.236:8443?sni=bing.com#%E3%80%90ChromeGo%E3%80%912-JP
+hysteria2://WvH8ooM9hom4KOOJHFJz1x5umE0aV4R0@43.156.36.253:8443?sni=43.156.36.253#%E3%80%90ChromeGo%E3%80%913-SG
+hysteria2://https://xship.2fa.cat@starlink-ft.251313.xyz:443?sni=xship.top#%E3%80%90ChromeGo%E3%80%914-US
+hysteria2://e3c3b722-1264-4cdc-a97c-b0a1bb73cd67@lv02.gotosvo.com:9443?sni=onecloudstream.com#%E3%80%90ChromeGo%E3%80%915-LV
+hysteria2://7e68e32f-8015-4f37-9082-70e8b0b58043@54.169.240.70:443?sni=www.bing.com#%E3%80%90ChromeGo%E3%80%916-SG
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTY4ZTMyZi04MDE1LTRmMzctOTA4Mi03MGU4YjBiNTgwNDM=@54.169.240.70:8443#%E3%80%90ChromeGo%E3%80%917-SG
