@@ -1,12 +1,8 @@
 # ChromeGo Node List
-# Updated: 2026-10-09 05:03:02
-# Total: 7
+# Updated: 2026-10-10 05:03:25
+# Total: 3
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-hysteria2://5d0a6445-a30d-4522-bb1f-94f1d3ad63be@rb.mangshe.xyz:2060?sni=127.0.0.1#%E3%80%90ChromeGo%E3%80%911-JP
-hysteria2://u63SxILNwtrQZ7Y1ZrFaZfsA@8.211.175.236:8443?sni=bing.com#%E3%80%90ChromeGo%E3%80%912-JP
-hysteria2://WvH8ooM9hom4KOOJHFJz1x5umE0aV4R0@43.156.36.253:8443?sni=43.156.36.253#%E3%80%90ChromeGo%E3%80%913-SG
-hysteria2://https://xship.2fa.cat@starlink-ft.251313.xyz:443?sni=xship.top#%E3%80%90ChromeGo%E3%80%914-US
-hysteria2://e3c3b722-1264-4cdc-a97c-b0a1bb73cd67@lv02.gotosvo.com:9443?sni=onecloudstream.com#%E3%80%90ChromeGo%E3%80%915-LV
-hysteria2://7e68e32f-8015-4f37-9082-70e8b0b58043@54.169.240.70:443?sni=www.bing.com#%E3%80%90ChromeGo%E3%80%916-SG
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTY4ZTMyZi04MDE1LTRmMzctOTA4Mi03MGU4YjBiNTgwNDM=@54.169.240.70:8443#%E3%80%90ChromeGo%E3%80%917-SG
+hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@94.198.54.132:443?sni=msk.frkn.org#%E3%80%90ChromeGo%E3%80%911-RU
+hysteria2://we_9m92rJZ93_m9Cj3KXB_mC9AS7Nx@139.28.168.126:8080?sni=hopp-honkong-new.roxa.org#%E3%80%90ChromeGo%E3%80%912-HK
+ss://YWVzLTEyOC1nY206ODU1OTBiZDItODA3Yi00OWI5LWFmMjAtMTEwMWMxOGI5ZWRh@ruot.ayucloudservices.nl:40022#%E3%80%90ChromeGo%E3%80%913-HK
