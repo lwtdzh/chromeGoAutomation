@@ -1,9 +1,6 @@
 # ChromeGo Node List
-# Updated: 2026-10-16 05:09:27
-# Total: 4
+# Updated: 2026-10-17 05:09:53
+# Total: 1
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-au-001.fastervpn.world:443?sni=vpn-au-001.fastervpn.world#%E3%80%90ChromeGo%E3%80%911-AU
-hysteria2://7e68e32f-8015-4f37-9082-70e8b0b58043@43.201.45.33:443?sni=www.bing.com#%E3%80%90ChromeGo%E3%80%912-KR
-vless://1d006ad5-1de1-4520-a5f4-875dae1b0a5d@77.221.157.213:10443?type=tcp&sni=77.221.157.213#%E3%80%90ChromeGo%E3%80%913-DE
-vless://ae908ff5-f749-402c-af25-e6e9aef4d6bb@45.138.100.248:10443?type=tcp&sni=45.138.100.248#%E3%80%90ChromeGo%E3%80%914-US
+ss://YWVzLTI1Ni1nY206QmVhVWY5YzBBRVdINDBQdQ==@154.36.158.197:8388#%E3%80%90ChromeGo%E3%80%911-JP
