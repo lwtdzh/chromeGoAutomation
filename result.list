@@ -1,6 +1,12 @@
 # ChromeGo Node List
-# Updated: 2026-10-17 05:09:53
-# Total: 1
+# Updated: 2026-10-18 05:08:46
+# Total: 7
 # Format: 【ChromeGo】number-country (x=serial, y=country)
 # Protocols: vmess, vless, ss, trojan, hysteria2, hysteria, tuic
-ss://YWVzLTI1Ni1nY206QmVhVWY5YzBBRVdINDBQdQ==@154.36.158.197:8388#%E3%80%90ChromeGo%E3%80%911-JP
+hysteria2://082f5694-9019-4110-b67b-8125dbb9bab8@189.74.106.162:54183?sni=outh.yandex-cloud.org#%E3%80%90ChromeGo%E3%80%911-RU
+hysteria2://082f5694-9019-4110-b67b-8125dbb9bab8@189.74.114.2:54183?sni=outh.yandex-cloud.org#%E3%80%90ChromeGo%E3%80%912-RU
+hysteria2://082f5694-9019-4110-b67b-8125dbb9bab8@outh.yandex-cloud.org:54183?sni=outh.yandex-cloud.org#%E3%80%90ChromeGo%E3%80%913-RU
+hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@35.159.225.28:443?sni=vpn-de-002.fastervpn.world#%E3%80%90ChromeGo%E3%80%914-DE
+hysteria2://https://xship.best@starlink-ft.251313.xyz:443?sni=xship.top#%E3%80%90ChromeGo%E3%80%915-US
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQemxjYl9QZVYzdVJnaUMyTk5vTkt3@b2a2.velqixa.ir:39221#%E3%80%90ChromeGo%E3%80%916-DE
+ss://YWVzLTI1Ni1nY206QmVhVWY5YzBBRVdINDBQdQ==@154.36.158.197:8388#%E3%80%90ChromeGo%E3%80%917-JP
